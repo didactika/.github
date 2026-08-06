@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="616" height="236" viewBox="0 0 616 236" role="img">
-<rect width="616" height="236" fill="#ffffff"/>
-<g transform="translate(96,0)">
+<svg xmlns="http://www.w3.org/2000/svg" width="582" height="236" viewBox="0 0 582 236" role="img">
+<rect width="582" height="236" fill="#ffffff"/>
+<g transform="translate(62,0)">
 <text x="0" y="16" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="start">Commits por repositorio</text>
 <text x="0" y="43.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#0b0b0b" text-anchor="start">prisma-entity-framework</text>
 <rect x="239" y="34" width="219" height="11" rx="5" fill="#e1e0d9"/>
