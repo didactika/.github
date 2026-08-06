@@ -41,7 +41,14 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 
 <details><summary><sub>Ver como tabla</sub></summary>
 
-_Sin datos todavía_
+| Lenguaje | Peso | Bytes |
+| --- | ---: | ---: |
+| TypeScript | 79.7% | 1,607,693 |
+| PHP | 14.8% | 298,202 |
+| Mustache | 3.2% | 63,658 |
+| PowerShell | 1.2% | 24,306 |
+| JavaScript | 0.6% | 11,858 |
+| Otros | 0.6% | 12,193 |
 
 </details>
 
@@ -61,21 +68,59 @@ _Sin datos todavía_
 
 ## Proyectos
 
+#### Plugins de Moodle
+
+<sub>Plugins de servidor que extienden Moodle para despliegues con mucha integración.</sub>
+
+<table>
+<tr>
+<td width="100%">
+<b><a href="https://github.com/didactika/moodle-local_servicemanager">local_servicemanager</a></b><br>
+<sub><img alt="PHP" src="https://img.shields.io/badge/PHP-1f2328?style=flat-square"> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-local_servicemanager?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-local_servicemanager?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/moodle-local_servicemanager?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/moodle-local_servicemanager?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></sub>
+<p>Crea y administra servicios web de Moodle desde esquemas YAML versionados. Genera automáticamente el usuario, el rol, las capacidades, el servicio externo y un token acotado en un solo paso.</p>
+
+<sub><a href="https://github.com/didactika/moodle-local_servicemanager">GitHub</a> · <a href="https://moodle.org/plugins/local_servicemanager">Moodle.org</a></sub>
+</td>
+</tr>
+</table>
+
+#### Paquetes NPM
+
+<sub>Librerías TypeScript para backends y capas de datos en Node.js.</sub>
+
+<table>
+<tr>
+<td width="100%">
+<b><a href="https://github.com/didactika/prisma-entity-framework">prisma-entity-framework</a></b><br>
+<sub><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/prisma-entity-framework?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/prisma-entity-framework?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/prisma-entity-framework?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/prisma-entity-framework?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/prisma-entity-framework?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></sub>
+<p>Añade patrón Active Record, query builder declarativo, búsqueda case-insensitive multi-motor, operaciones batch optimizadas por base de datos y paginación automática sobre Prisma Client, sin renunciar al tipado de Prisma.</p>
+<pre><code>npm install prisma-entity-framework</code></pre>
+<sub><a href="https://github.com/didactika/prisma-entity-framework">GitHub</a> · <a href="https://www.npmjs.com/package/prisma-entity-framework">npm</a></sub>
+</td>
+</tr>
+<tr>
+<td width="100%">
+<b><a href="https://github.com/didactika/prisma-autoread">@didactika/prisma-autoread</a></b><br>
+<sub><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></sub>
+<p>Endpoints de búsqueda drop-in para Express + Prisma. Una sola declaración da filtrado, ordenación, selección de campos, relaciones, agregaciones y paginación — vía query strings con corchetes, cuerpos JSON, RSQL/FIQL u OData, con salida HAL, JSON:API o CSV.</p>
+<pre><code>npm install @didactika/prisma-autoread</code></pre>
+<sub><a href="https://github.com/didactika/prisma-autoread">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/prisma-autoread">npm</a></sub>
+</td>
+</tr>
+</table>
+
 #### En desarrollo
 
 <sub>Anunciados en didactika.org, aún no publicados en GitHub.</sub>
 
-- **local_servicemanager** — Crea y administra servicios web de Moodle desde esquemas YAML versionados. Genera automáticamente el usuario, el rol, las capacidades, el servicio externo y un token acotado en un solo paso.
 - **local_messagebroker** — Interfaz única para enviar y recibir mensajes asíncronos contra colas y servidores de mensajería externos: RabbitMQ, Kafka, AWS SQS, Azure Service Bus y Google Pub/Sub.
 - **local_eventbus** — Bus de eventos para Moodle: intercepta acciones del sistema, las enriquece con contexto (curso, usuario involucrado) y las publica en colas de mensajería.
-- **prisma-entity-framework** — Añade patrón Active Record, query builder declarativo, búsqueda case-insensitive multi-motor, operaciones batch optimizadas por base de datos y paginación automática sobre Prisma Client, sin renunciar al tipado de Prisma.
-- **@didactika/prisma-autoread** — Endpoints de búsqueda drop-in para Express + Prisma. Una sola declaración da filtrado, ordenación, selección de campos, relaciones, agregaciones y paginación — vía query strings con corchetes, cuerpos JSON, RSQL/FIQL u OData, con salida HAL, JSON:API o CSV.
 - **@resilientmq/core** — Motor de mensajería asíncrona ligero para Node.js y TypeScript, con reintentos automáticos, almacenamiento local y tolerancia activa a caídas del sistema.
 
 
 ## Colaboradores
 
-_Sin datos todavía_
+<p><a href="https://github.com/E2RD0" title="E2RD0 · 108 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=72" width="56" height="56" alt="E2RD0"></a><a href="https://github.com/hector-ae21" title="hector-ae21 · 12 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=72" width="56" height="56" alt="hector-ae21"></a></p>
 
 ## Cómo contribuir
 
