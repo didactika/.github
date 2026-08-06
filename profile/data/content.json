@@ -1,0 +1,189 @@
+{
+  "$comment": "Single source of truth for every word on the organisation profile. scripts/generate-profile.mjs renders profile/README.md (en) and profile/README.es.md (es) from this file plus live GitHub data. Never edit the generated READMEs.",
+
+  "org": {
+    "login": "didactika",
+    "name": "Didactika",
+    "website": "https://didactika.org",
+    "tagline": {
+      "en": "Educational Technology & Open Source Learning Software",
+      "es": "Tecnología Didáctica y Software Educativo Open Source"
+    }
+  },
+
+  "copy": {
+    "about": {
+      "heading": { "en": "Who we are", "es": "Quiénes somos" },
+      "body": {
+        "en": [
+          "Didactika is a **technology and educational innovation lab** building open source projects that drive digital learning.",
+          "We believe in free, robust and scalable educational infrastructure, able to meet today's challenges of usability, interactivity and integration. Our goal is to build **production-ready** solutions that serve educational institutions, developers and communities committed to free software alike."
+        ],
+        "es": [
+          "Didactika es un **laboratorio de tecnología e innovación educativa** dedicado a crear proyectos open source que impulsen el aprendizaje digital.",
+          "Creemos en una infraestructura educativa libre, robusta y escalable, capaz de responder a los retos actuales de usabilidad, interactividad e integración. Nuestro objetivo es construir soluciones **listas para producción** que sirvan tanto a instituciones educativas como a desarrolladores y comunidades comprometidas con el software libre."
+        ]
+      },
+      "quote": {
+        "en": "At Didactika, we turn open source into better opportunities to learn.",
+        "es": "En Didactika, transformamos código abierto en oportunidades para aprender mejor."
+      }
+    },
+
+    "metrics": {
+      "heading": { "en": "By the numbers", "es": "En cifras" },
+      "languages": { "en": "Code by language", "es": "Código por lenguaje" },
+      "licenses": { "en": "Repositories by license", "es": "Repositorios por licencia" },
+      "activity": { "en": "Weekly commits, last 52 weeks", "es": "Commits semanales, últimas 52 semanas" },
+      "asTable": { "en": "View as table", "es": "Ver como tabla" }
+    },
+
+    "projects": {
+      "heading": { "en": "Projects", "es": "Proyectos" },
+      "soonHeading": { "en": "In development", "es": "En desarrollo" },
+      "soonNote": {
+        "en": "Announced on didactika.org, not published to GitHub yet.",
+        "es": "Anunciados en didactika.org, aún no publicados en GitHub."
+      }
+    },
+
+    "contributors": {
+      "heading": { "en": "Contributors", "es": "Colaboradores" }
+    },
+
+    "contributing": {
+      "heading": { "en": "Contributing", "es": "Cómo contribuir" },
+      "steps": {
+        "en": [
+          "Open an issue to report a bug or propose an improvement.",
+          "Fork the repository and create a branch for your change.",
+          "Follow the project's conventions — Moodle coding standards in the PHP plugins, strict TypeScript in the NPM packages.",
+          "Include tests (PHPUnit or the package's own runner) with your pull request."
+        ],
+        "es": [
+          "Abre un *issue* para reportar un fallo o proponer una mejora.",
+          "Haz *fork* del repositorio y crea una rama para tu cambio.",
+          "Sigue las convenciones del proyecto — estándares de codificación de Moodle en los plugins PHP, TypeScript estricto en los paquetes NPM.",
+          "Incluye pruebas (PHPUnit o el runner del paquete) junto a tu *pull request*."
+        ]
+      }
+    },
+
+    "founders": {
+      "heading": { "en": "Founders", "es": "Fundadores" },
+      "role": { "en": "Founder", "es": "Fundador" },
+      "intro": {
+        "en": "A technical team with a background in Moodle, web development, microservices and educational integrations.",
+        "es": "Un equipo técnico con experiencia en Moodle, desarrollo web, microservicios e integraciones educativas."
+      }
+    },
+
+    "footer": {
+      "en": "Driving education through open source",
+      "es": "Impulsando la educación a través del código abierto"
+    }
+  },
+
+  "groups": [
+    {
+      "id": "moodle",
+      "label": { "en": "Moodle plugins", "es": "Plugins de Moodle" },
+      "blurb": {
+        "en": "Server-side plugins that extend Moodle for integration-heavy deployments.",
+        "es": "Plugins de servidor que extienden Moodle para despliegues con mucha integración."
+      }
+    },
+    {
+      "id": "npm",
+      "label": { "en": "NPM packages", "es": "Paquetes NPM" },
+      "blurb": {
+        "en": "TypeScript libraries for Node.js backends and data layers.",
+        "es": "Librerías TypeScript para backends y capas de datos en Node.js."
+      }
+    }
+  ],
+
+  "projects": [
+    {
+      "repo": "moodle-local_servicemanager",
+      "group": "moodle",
+      "name": "local_servicemanager",
+      "moodleUrl": "https://moodle.org/plugins/local_servicemanager",
+      "desc": {
+        "en": "Provisions and manages Moodle web services from version-controlled YAML schemas. Auto-creates the service user, role, capabilities, external service and scoped token in a single step.",
+        "es": "Crea y administra servicios web de Moodle desde esquemas YAML versionados. Genera automáticamente el usuario, el rol, las capacidades, el servicio externo y un token acotado en un solo paso."
+      }
+    },
+    {
+      "repo": "moodle-local_messagebroker",
+      "group": "moodle",
+      "name": "local_messagebroker",
+      "moodleUrl": "https://moodle.org/plugins/local_messagebroker",
+      "desc": {
+        "en": "A single interface for sending and receiving asynchronous messages against external queues and brokers — RabbitMQ, Kafka, AWS SQS, Azure Service Bus and Google Pub/Sub.",
+        "es": "Interfaz única para enviar y recibir mensajes asíncronos contra colas y servidores de mensajería externos: RabbitMQ, Kafka, AWS SQS, Azure Service Bus y Google Pub/Sub."
+      }
+    },
+    {
+      "repo": "moodle-local_eventbus",
+      "group": "moodle",
+      "name": "local_eventbus",
+      "moodleUrl": "https://moodle.org/plugins/local_eventbus",
+      "desc": {
+        "en": "An event bus for Moodle: intercepts system actions, enriches them with context (course, user involved) and publishes them to messaging queues.",
+        "es": "Bus de eventos para Moodle: intercepta acciones del sistema, las enriquece con contexto (curso, usuario involucrado) y las publica en colas de mensajería."
+      }
+    },
+    {
+      "repo": "prisma-entity-framework",
+      "group": "npm",
+      "name": "prisma-entity-framework",
+      "npm": "prisma-entity-framework",
+      "desc": {
+        "en": "Adds the Active Record pattern, a declarative query builder, cross-engine case-insensitive search, database-aware batch operations and automatic pagination on top of Prisma Client — without giving up Prisma's type safety.",
+        "es": "Añade patrón Active Record, query builder declarativo, búsqueda case-insensitive multi-motor, operaciones batch optimizadas por base de datos y paginación automática sobre Prisma Client, sin renunciar al tipado de Prisma."
+      }
+    },
+    {
+      "repo": "prisma-autoread",
+      "group": "npm",
+      "name": "@didactika/prisma-autoread",
+      "npm": "@didactika/prisma-autoread",
+      "desc": {
+        "en": "Drop-in search endpoints for Express + Prisma. One declaration gives you filtering, sorting, field selection, relation includes, aggregations and pagination — over bracket query strings, JSON bodies, RSQL/FIQL or OData, with HAL, JSON:API or CSV output.",
+        "es": "Endpoints de búsqueda drop-in para Express + Prisma. Una sola declaración da filtrado, ordenación, selección de campos, relaciones, agregaciones y paginación — vía query strings con corchetes, cuerpos JSON, RSQL/FIQL u OData, con salida HAL, JSON:API o CSV."
+      }
+    },
+    {
+      "repo": "resilientmq-core",
+      "group": "npm",
+      "name": "@resilientmq/core",
+      "npm": "@resilientmq/core",
+      "desc": {
+        "en": "A lightweight asynchronous messaging engine for Node.js and TypeScript, with automatic retries, local persistence and active tolerance to system failures.",
+        "es": "Motor de mensajería asíncrona ligero para Node.js y TypeScript, con reintentos automáticos, almacenamiento local y tolerancia activa a caídas del sistema."
+      }
+    }
+  ],
+
+  "founders": [
+    {
+      "name": "Eduardo Estrada",
+      "github": "E2RD0",
+      "linkedin": "https://www.linkedin.com/in/estradaeduardo/",
+      "bio": {
+        "en": "Computer engineer with a background in full-stack development, event-driven microservices and Moodle integrations. Combines building tools for virtual campuses with extracting and applying educational data for learning analytics.",
+        "es": "Ingeniero informático con experiencia en desarrollo full-stack, microservicios orientados a eventos e integraciones con Moodle. Combina la creación de herramientas para campus virtuales con la extracción y uso de datos educativos para analítica del aprendizaje."
+      }
+    },
+    {
+      "name": "Hector Arrechea",
+      "github": "hector-ae21",
+      "linkedin": "https://www.linkedin.com/in/hector-arrechea/",
+      "bio": {
+        "en": "Computer engineer with a master's in cybersecurity and a background in Moodle, microservices and integrations with educational systems. Brings applied security, design patterns and quality criteria to platform development.",
+        "es": "Ingeniero informático y máster en ciberseguridad, con experiencia en Moodle, microservicios e integraciones con sistemas educativos. Su enfoque integra seguridad aplicada, patrones de diseño y criterios de calidad en el desarrollo para plataformas educativas."
+      }
+    }
+  ]
+}

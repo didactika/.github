@@ -1,0 +1,52 @@
+name: Update organisation profile
+
+# Regenerates the charts and README blocks from live GitHub data.
+# GitHub profile READMEs cannot run JavaScript, so "dynamic" means this job
+# recomputes the numbers on a schedule and commits the result.
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # daily, 04:17 UTC
+  workflow_dispatch: # manual run from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate-profile.mjs"
+      - "profile/data/content.json"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate profile
+        env:
+          # The default token can read the org's public repos, which is all the
+          # generator needs. Swap for a PAT only if private repos should count.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-profile.mjs
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- profile; then
+            echo "Profile already up to date."
+            exit 0
+          fi
+          git add profile
+          git commit -m "chore(profile): refresh stats [skip ci]"
+          git push
