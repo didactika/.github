@@ -51,7 +51,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 
 ## En cifras
 
-<p align="center">
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/languages-es-dark.svg">
   <img alt="Código por lenguaje" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/languages-es-light.svg" width="48%">
@@ -62,7 +62,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 </picture>
 </p>
 
-<p align="center">
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/weekday-es-dark.svg">
   <img alt="Commits por día de la semana" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/weekday-es-light.svg" width="48%">

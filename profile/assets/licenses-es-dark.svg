@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="208" viewBox="0 0 520 208" role="img">
-<rect width="520" height="208" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="564" height="208" viewBox="0 0 564 208" role="img">
+<rect width="564" height="208" fill="#0d1117"/>
+<g transform="translate(44,0)">
 <text x="0" y="16" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">Repositorios por licencia</text>
 <text x="0" y="43.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="start">MIT</text>
 <rect x="135" y="34" width="323" height="11" rx="5" fill="#21262d"/>
@@ -9,4 +10,5 @@
 <rect x="135" y="62" width="323" height="11" rx="5" fill="#21262d"/>
 <rect x="135" y="62" width="161.5" height="11" rx="5" fill="#14b8a6"/>
 <text x="520" y="71.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" fill="#c3c2b7" text-anchor="end">1</text>
+</g>
 </svg>
