@@ -27,6 +27,11 @@ GITHUB_TOKEN=$(gh auth token) node scripts/generate-profile.mjs
 The token is optional but strongly recommended — unauthenticated GitHub API
 calls are rate-limited to 60/hour, which is not enough for a full run.
 
+## When it refreshes
+
+Every 8 hours on a cron, plus manually from the Actions tab, plus on any push
+that touches the generator or `content.json`.
+
 ## Why some charts are committed files
 
 A GitHub profile README cannot execute JavaScript, and GitHub publishes no

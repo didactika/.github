@@ -34,17 +34,21 @@
       "heading": { "en": "By the numbers", "es": "En cifras" },
       "languages": { "en": "Code by language", "es": "Código por lenguaje" },
       "licenses": { "en": "Repositories by license", "es": "Repositorios por licencia" },
-      "activity": { "en": "Weekly commits, last 52 weeks", "es": "Commits semanales, últimas 52 semanas" },
-      "asTable": { "en": "View as table", "es": "Ver como tabla" }
+      "weekday": { "en": "Commits by day of week", "es": "Commits por día de la semana" },
+      "perRepo": { "en": "Commits by repository", "es": "Commits por repositorio" },
+      "activity": { "en": "Weekly commits, last 52 weeks", "es": "Commits semanales, últimas 52 semanas" }
     },
 
     "projects": {
       "heading": { "en": "Projects", "es": "Proyectos" },
+      "viewAll": { "en": "Browse", "es": "Ver todos" },
+      "count": { "en": "published", "es": "publicados" },
       "soonHeading": { "en": "In development", "es": "En desarrollo" },
       "soonNote": {
         "en": "Announced on didactika.org, not published to GitHub yet.",
         "es": "Anunciados en didactika.org, aún no publicados en GitHub."
-      }
+      },
+      "back": { "en": "Back to the Didactika profile", "es": "Volver al perfil de Didactika" }
     },
 
     "contributors": {
