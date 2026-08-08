@@ -1,0 +1,50 @@
+name: Bug report
+description: Something the project does that it should not, or fails to do
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not use this form for security vulnerabilities. See
+        [SECURITY.md](https://github.com/didactika/.github/blob/main/SECURITY.md)
+        for how to report those privately.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The minimum steps needed to see the problem.
+    validations:
+      required: false
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or log output
+      render: text
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Which version, tag, or commit you were running.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Environment details, or anything else that might matter.
+    validations:
+      required: false
