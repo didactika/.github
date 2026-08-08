@@ -3,6 +3,12 @@ name: Update organisation profile
 # Regenerates the charts and README blocks from live GitHub data.
 # GitHub profile READMEs cannot run JavaScript, so "dynamic" means this job
 # recomputes the numbers on a schedule and commits the result.
+#
+# The generator itself lives in didactika/profile-generator, not here — this
+# repo only supplies the content and receives the output. A change pushed to
+# profile-generator's main has no push trigger into this repo (that would need
+# a cross-repo token), so it takes effect on the next scheduled run, at most
+# 8 hours later, or immediately via a manual "Run workflow".
 
 on:
   schedule:
@@ -11,7 +17,6 @@ on:
   push:
     branches: [main]
     paths:
-      - "scripts/generate-profile.mjs"
       - "profile/data/content.json"
       - ".github/workflows/update-profile.yml"
 
@@ -26,7 +31,14 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out this repository
+        uses: actions/checkout@v4
+
+      - name: Check out the generator
+        uses: actions/checkout@v4
+        with:
+          repository: didactika/profile-generator
+          path: profile-generator
 
       - uses: actions/setup-node@v4
         with:
@@ -37,7 +49,7 @@ jobs:
           # The default token can read the org's public repos, which is all the
           # generator needs. Swap for a PAT only if private repos should count.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/generate-profile.mjs
+        run: node profile-generator/generate-profile.mjs
 
       - name: Commit if anything changed
         run: |
