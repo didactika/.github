@@ -16,7 +16,7 @@ opens a private draft advisory that only you and the maintainers can see,
 and keeps a record the fix can be tracked against.
 
 If a repository does not have private vulnerability reporting enabled, or you
-would rather not use GitHub, email **conduct@didactika.org** with:
+would rather not use GitHub, email **security@didactika.org** with:
 
 - The repository and, if relevant, the version or commit affected.
 - Steps to reproduce, or a proof of concept.
