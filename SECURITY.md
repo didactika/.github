@@ -25,6 +25,34 @@ would rather not use GitHub, email **security@didactika.org** with:
 This is a shared inbox for now; if a project grows a dedicated security
 contact later, its own `SECURITY.md` will say so.
 
+## Supported versions
+
+Which versions receive security fixes depends on the kind of project. Didactika uses two
+maintenance schemes, because a library consumed from a registry and a Moodle plugin
+installed into a site do not age the same way.
+
+**NPM packages** keep one branch per live major, named `vMAJOR.x` — `v3.x`, `v2.x`. The
+highest major is the default branch and receives features and fixes. The previous major
+receives **security fixes only**, never features, and is published on its own when
+needed. Two majors back leaves support once the current one is stable. The `latest`
+dist-tag always points at the highest semver published, not at whatever was published
+most recently, so a security backport to an older major never pulls `latest` backwards.
+
+**Moodle plugins** follow the convention of the Moodle ecosystem rather than ours.
+Development happens on `main`, and each supported Moodle release gets its own branch —
+`MOODLE_405_STABLE`, `MOODLE_502_STABLE`. The plugin's own version is independent of
+those branches: `version.php` carries it in `$plugin->release`, and `$plugin->supported`
+declares which Moodle releases that version is tested and supported against. That
+declaration is the authoritative answer for any given plugin, and it is what the CI
+matrix runs against.
+
+**Services and applications** are deployed rather than distributed. They have no
+published versions to support: only what is currently deployed is maintained.
+
+To see which versions of a given project are supported right now, look at the branches
+the repository actually has, or at the [Didactika profile](https://github.com/didactika),
+which lists them.
+
 ## What to expect
 
 - Acknowledgement within a few days.
