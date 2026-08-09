@@ -60,17 +60,42 @@
       "steps": {
         "en": [
           "Open an issue to report a bug or propose an improvement.",
-          "Fork the repository and create a branch for your change.",
+          "Fork the repository and create a branch for your change, named `type/short-description`.",
+          "Target the right branch: the highest `vMAJOR.x` in an NPM package, `main` in a Moodle plugin, the stable branch in a service. None of them use `develop`.",
+          "Write the commit message as a [Conventional Commit](https://www.conventionalcommits.org) — `feat:`, `fix:`, `chore:` and so on, with the body explaining why rather than what.",
           "Follow the project's conventions — Moodle coding standards in the PHP plugins, strict TypeScript in the NPM packages.",
           "Include tests (PHPUnit or the package's own runner) with your pull request."
         ],
         "es": [
           "Abre un *issue* para reportar un fallo o proponer una mejora.",
-          "Haz *fork* del repositorio y crea una rama para tu cambio.",
+          "Haz *fork* del repositorio y crea una rama para tu cambio, con el nombre `tipo/descripcion-corta`.",
+          "Apunta a la rama correcta: la `vMAJOR.x` más alta en un paquete NPM, `main` en un plugin de Moodle, la rama estable en un servicio. Ninguno usa `develop`.",
+          "Escribe el mensaje de commit como [Conventional Commit](https://www.conventionalcommits.org) — `feat:`, `fix:`, `chore:` y demás, con el cuerpo explicando el porqué, no el qué.",
           "Sigue las convenciones del proyecto — estándares de codificación de Moodle en los plugins PHP, TypeScript estricto en los paquetes NPM.",
           "Incluye pruebas (PHPUnit o el runner del paquete) junto a tu *pull request*."
         ]
-      }
+      },
+      "docsIntro": {
+        "en": "The full versions of these apply to every repository in the organisation, and are what a repository without its own copy inherits:",
+        "es": "Las versiones completas se aplican a todos los repositorios de la organización, y son las que hereda cualquier repositorio que no tenga las suyas propias:"
+      },
+      "docs": [
+        {
+          "url": "https://github.com/didactika/.github/blob/main/CONTRIBUTING.md",
+          "label": { "en": "Contributing guide", "es": "Guía de contribución" }
+        },
+        {
+          "url": "https://github.com/didactika/.github/blob/main/SECURITY.md",
+          "label": {
+            "en": "Security policy and versioning",
+            "es": "Política de seguridad y versionado"
+          }
+        },
+        {
+          "url": "https://github.com/didactika/.github/blob/main/CODE_OF_CONDUCT.md",
+          "label": { "en": "Code of conduct", "es": "Código de conducta" }
+        }
+      ]
     },
 
     "founders": {
@@ -95,6 +120,12 @@
       "blurb": {
         "en": "Server-side plugins that extend Moodle for integration-heavy deployments.",
         "es": "Plugins de servidor que extienden Moodle para despliegues con mucha integración."
+      },
+      "supportedBranches": {
+        "$comment": "Which Moodle versions a plugin supports is derived from its live MOODLE_XXX_STABLE branches, never written here: a version whose branch has been deleted stops being advertised on its own. style 'moodle' turns 405 into 4.5.",
+        "pattern": "^MOODLE_(\\d+)_STABLE$",
+        "style": "moodle",
+        "label": { "en": "Supported Moodle", "es": "Moodle compatible" }
       }
     },
     {
@@ -103,6 +134,12 @@
       "blurb": {
         "en": "TypeScript libraries for Node.js backends and data layers.",
         "es": "Librerías TypeScript para backends y capas de datos en Node.js."
+      },
+      "supportedBranches": {
+        "$comment": "One vMAJOR.x branch per major line still receiving fixes. A major whose branch is gone is out of support, so it stops appearing here without anyone editing this file.",
+        "pattern": "^v(\\d+)\\.x$",
+        "style": "major",
+        "label": { "en": "Maintained lines", "es": "Líneas mantenidas" }
       }
     }
   ],
@@ -139,10 +176,10 @@
       }
     },
     {
-      "repo": "prisma-entity-framework",
+      "repo": "prisma-entity",
       "group": "npm",
-      "name": "prisma-entity-framework",
-      "npm": "prisma-entity-framework",
+      "name": "prisma-entity",
+      "npm": "@didactika/prisma-entity",
       "desc": {
         "en": "Adds the Active Record pattern, a declarative query builder, cross-engine case-insensitive search, database-aware batch operations and automatic pagination on top of Prisma Client — without giving up Prisma's type safety.",
         "es": "Añade patrón Active Record, query builder declarativo, búsqueda case-insensitive multi-motor, operaciones batch optimizadas por base de datos y paginación automática sobre Prisma Client, sin renunciar al tipado de Prisma."

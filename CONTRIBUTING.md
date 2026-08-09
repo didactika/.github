@@ -35,11 +35,44 @@ uphold it.
    before committing if the repository has one configured.
 4. Add or update tests if the project has a test suite and your change affects
    behavior.
-5. Commit with a message that explains *why* the change is needed, not just
-   what it does.
-6. Open a pull request against the repository's default branch, unless its own
-   `CONTRIBUTING.md` says otherwise (some projects route pull requests through
-   a `develop` branch instead).
+5. Commit following [Conventional Commits](https://www.conventionalcommits.org)
+   (see below), and use the body to explain *why* the change is needed, not
+   just what it does.
+6. Open a pull request against the right branch for that kind of project (see
+   below). When in doubt, the repository's default branch is the right target.
+
+## Commit messages
+
+Commits follow [Conventional Commits](https://www.conventionalcommits.org): a
+type, an optional scope, and a short imperative summary.
+
+```
+feat(query): support case-insensitive search on MySQL
+fix: truncate NOW() to milliseconds on MySQL upserts
+docs: document the release process
+```
+
+Common types are `feat`, `fix`, `docs`, `refactor`, `test`, `ci`, `chore`. A
+change that breaks compatibility says so with `BREAKING CHANGE:` in the body,
+which is what tells reviewers a major version is involved.
+
+The prefix is a convention, not automation: versions and changelogs are still
+written deliberately, not derived from commit history.
+
+## Which branch to open a pull request against
+
+Branching differs by project type, because a library published to a registry
+and a Moodle plugin installed into a site are maintained differently. The full
+rationale is in [SECURITY.md](SECURITY.md).
+
+- **NPM packages** keep one branch per live major, `vMAJOR.x`. Target the
+  highest one — `v3.x` — unless you are backporting a security fix to an older
+  major. There is no `develop` branch.
+- **Moodle plugins** develop on `main`, with one `MOODLE_XXX_STABLE` branch per
+  supported Moodle release. Target `main` unless the fix only applies to a
+  specific Moodle release.
+- **Services and applications** keep a stable branch and a `develop` branch.
+  Target `develop`.
 
 ## Pull request review
 
