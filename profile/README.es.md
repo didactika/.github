@@ -43,7 +43,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 <td width="50%" valign="top">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md">Paquetes NPM</a></h3>
 <p><sub>Librerías TypeScript para backends y capas de datos en Node.js.</sub></p>
-<p><sub><b>1</b> publicados · <b>2</b> en desarrollo</sub></p>
+<p><sub><b>2</b> publicados · <b>1</b> en desarrollo</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
 </td>
 </tr>
@@ -80,14 +80,16 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 
 ## Colaboradores
 
-<p><a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/hector-ae21" title="hector-ae21 · 97 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a></p>
+<p><a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/hector-ae21" title="hector-ae21 · 98 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a></p>
 
 ## Cómo contribuir
 
 1. Abre un *issue* para reportar un fallo o proponer una mejora.
-2. Haz *fork* del repositorio y crea una rama para tu cambio.
-3. Sigue las convenciones del proyecto — estándares de codificación de Moodle en los plugins PHP, TypeScript estricto en los paquetes NPM.
-4. Incluye pruebas (PHPUnit o el runner del paquete) junto a tu *pull request*.
+2. Haz *fork* del repositorio y crea una rama para tu cambio, con el nombre `tipo/descripcion-corta`.
+3. Apunta a la rama correcta: la `vMAJOR.x` más alta en un paquete NPM, `main` en un plugin de Moodle, la rama estable en un servicio. Ninguno usa `develop`.
+4. Escribe el mensaje de commit como [Conventional Commit](https://www.conventionalcommits.org) — `feat:`, `fix:`, `chore:` y demás, con el cuerpo explicando el porqué, no el qué.
+5. Sigue las convenciones del proyecto — estándares de codificación de Moodle en los plugins PHP, TypeScript estricto en los paquetes NPM.
+6. Incluye pruebas (PHPUnit o el runner del paquete) junto a tu *pull request*.
 
 ## Fundadores
 

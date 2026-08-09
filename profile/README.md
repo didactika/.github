@@ -43,7 +43,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 <td width="50%" valign="top">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md">NPM packages</a></h3>
 <p><sub>TypeScript libraries for Node.js backends and data layers.</sub></p>
-<p><sub><b>1</b> published · <b>2</b> in development</sub></p>
+<p><sub><b>2</b> published · <b>1</b> in development</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md"><b>Browse →</b></a></p>
 </td>
 </tr>
@@ -80,14 +80,16 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 
 ## Contributors
 
-<p><a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/hector-ae21" title="hector-ae21 · 97 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a></p>
+<p><a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/hector-ae21" title="hector-ae21 · 98 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a></p>
 
 ## Contributing
 
 1. Open an issue to report a bug or propose an improvement.
-2. Fork the repository and create a branch for your change.
-3. Follow the project's conventions — Moodle coding standards in the PHP plugins, strict TypeScript in the NPM packages.
-4. Include tests (PHPUnit or the package's own runner) with your pull request.
+2. Fork the repository and create a branch for your change, named `type/short-description`.
+3. Target the right branch: the highest `vMAJOR.x` in an NPM package, `main` in a Moodle plugin, the stable branch in a service. None of them use `develop`.
+4. Write the commit message as a [Conventional Commit](https://www.conventionalcommits.org) — `feat:`, `fix:`, `chore:` and so on, with the body explaining why rather than what.
+5. Follow the project's conventions — Moodle coding standards in the PHP plugins, strict TypeScript in the NPM packages.
+6. Include tests (PHPUnit or the package's own runner) with your pull request.
 
 ## Founders
 
