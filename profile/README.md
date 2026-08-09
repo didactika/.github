@@ -43,7 +43,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 <td width="50%" valign="top">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md">NPM packages</a></h3>
 <p><sub>TypeScript libraries for Node.js backends and data layers.</sub></p>
-<p><sub><b>2</b> published · <b>1</b> in development</sub></p>
+<p><sub><b>1</b> published · <b>2</b> in development</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md"><b>Browse →</b></a></p>
 </td>
 </tr>
@@ -80,7 +80,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 
 ## Contributors
 
-<p><a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/hector-ae21" title="hector-ae21 · 90 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a></p>
+<p><a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/hector-ae21" title="hector-ae21 · 97 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a></p>
 
 ## Contributing
 
