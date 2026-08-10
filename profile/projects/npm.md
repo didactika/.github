@@ -1,7 +1,7 @@
 <!--
   GENERATED FILE — DO NOT EDIT.
   Rendered from profile/data/content.json + the GitHub API by
-  profile-generator. Last generated: 2026-08-09
+  profile-generator. Last generated: 2026-08-10
 -->
 
 <a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-on-dark.svg"><img alt="EN" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-on-light.svg" height="32"></picture></a><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-off-dark.svg"><img alt="ES" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-off-light.svg" height="32"></picture></a>
@@ -21,6 +21,8 @@ Adds the Active Record pattern, a declarative query builder, cross-engine case-i
 ```bash
 npm install @didactika/prisma-entity
 ```
+
+<p><sub><b>Maintained lines:</b> <code>3.x</code> · <code>2.x</code></sub></p>
 
 <sub><a href="https://github.com/didactika/prisma-entity">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/prisma-entity">npm</a></sub>
 
