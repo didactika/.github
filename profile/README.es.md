@@ -80,7 +80,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 
 ## Colaboradores
 
-<p><a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/hector-ae21" title="hector-ae21 · 107 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a></p>
+<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 118 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a></p>
 
 ## Cómo contribuir
 
