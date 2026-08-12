@@ -119,6 +119,7 @@
   "groups": [
     {
       "id": "moodle",
+      "projectTypes": ["moodle-plugin"],
       "label": { "en": "Moodle plugins", "es": "Plugins de Moodle" },
       "blurb": {
         "en": "Server-side plugins that extend Moodle for integration-heavy deployments.",
@@ -133,6 +134,7 @@
     },
     {
       "id": "npm",
+      "projectTypes": ["npm-package"],
       "label": { "en": "NPM packages", "es": "Paquetes NPM" },
       "blurb": {
         "en": "TypeScript libraries for Node.js backends and data layers.",
@@ -156,6 +158,15 @@
       "desc": {
         "en": "Provisions and manages Moodle web services from version-controlled YAML schemas. Auto-creates the service user, role, capabilities, external service and scoped token in a single step.",
         "es": "Crea y administra servicios web de Moodle desde esquemas YAML versionados. Genera automáticamente el usuario, el rol, las capacidades, el servicio externo y un token acotado en un solo paso."
+      }
+    },
+    {
+      "repo": "moodle-tool_openapi",
+      "group": "moodle",
+      "name": "tool_openapi",
+      "desc": {
+        "en": "Exposes Moodle's live web-service function catalog as an OpenAPI 3.1 document, with configurable access control and schemas derived from the platform's external API definitions.",
+        "es": "Expone el catálogo activo de funciones de servicios web de Moodle como un documento OpenAPI 3.1, con control de acceso configurable y esquemas derivados de las definiciones de la API externa de la plataforma."
       }
     },
     {

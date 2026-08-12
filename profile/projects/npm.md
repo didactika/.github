@@ -42,6 +42,32 @@ npm install @didactika/prisma-autoread
 
 ---
 
+<h3><a href="https://github.com/didactika/moodle-client">@didactika/moodle-client</a></h3>
+
+<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
+
+TypeScript client that builds and sends authenticated requests to Moodle&#39;s web services API, handling tokens and HTTP methods for you.
+
+```bash
+npm install @didactika/moodle-client
+```
+
+<p><sub><b>Maintained lines:</b> <code>2.x</code> · <code>1.x</code></sub></p>
+
+<sub><a href="https://github.com/didactika/moodle-client">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/moodle-client">npm</a></sub>
+
+---
+
+<h3><a href="https://github.com/resilientmq/types__core">@resilientmq/types__core</a></h3>
+
+<p><img alt="release" src="https://img.shields.io/github/v/release/resilientmq/types__core?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/resilientmq/types__core?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/resilientmq/types__core?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/resilientmq/types__core?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
+
+Declaration-only TypeScript contracts for ResilientMQ core: event messages, stores, queues, consumers and publishers.
+
+<sub><a href="https://github.com/resilientmq/types__core">GitHub</a></sub>
+
+---
+
 <h3><a href="https://github.com/resilientmq/core">@resilientmq/core</a></h3>
 
 <p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
@@ -67,16 +93,6 @@ npm install @resilientmq/mongoose-connector
 ```
 
 <sub><a href="https://github.com/resilientmq/mongoose-connector">GitHub</a> · <a href="https://www.npmjs.com/package/@resilientmq/mongoose-connector">npm</a></sub>
-
----
-
-<h3><a href="https://github.com/resilientmq/types__core">@resilientmq/types__core</a></h3>
-
-<p><img alt="release" src="https://img.shields.io/github/v/release/resilientmq/types__core?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/resilientmq/types__core?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/resilientmq/types__core?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/resilientmq/types__core?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
-
-Declaration-only TypeScript contracts for ResilientMQ core: event messages, stores, queues, consumers and publishers.
-
-<sub><a href="https://github.com/resilientmq/types__core">GitHub</a></sub>
 
 ---
 

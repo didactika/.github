@@ -11,6 +11,8 @@
 
 <p align="center"><strong>Tecnología Didáctica y Software Educativo Open Source</strong></p>
 
+
+
 <p align="center">
   <a href="https://didactika.org">didactika.org</a> ·
   <a href="https://github.com/didactika">GitHub</a> ·
@@ -39,13 +41,13 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 <td width="50%" valign="top">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md">Plugins de Moodle</a></h3>
 <p><sub>Plugins de servidor que extienden Moodle para despliegues con mucha integración.</sub></p>
-<p><sub><b>1</b> publicados · <b>2</b> en desarrollo</sub></p>
+<p><sub><b>2</b> publicados · <b>2</b> en desarrollo</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md"><b>Ver todos →</b></a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md">Paquetes NPM</a></h3>
 <p><sub>Librerías TypeScript para backends y capas de datos en Node.js.</sub></p>
-<p><sub><b>6</b> publicados</sub></p>
+<p><sub><b>7</b> publicados</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
 </td>
 </tr>

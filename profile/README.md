@@ -11,6 +11,8 @@
 
 <p align="center"><strong>Educational Technology &amp; Open Source Learning Software</strong></p>
 
+
+
 <p align="center">
   <a href="https://didactika.org">didactika.org</a> ·
   <a href="https://github.com/didactika">GitHub</a> ·
@@ -39,13 +41,13 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 <td width="50%" valign="top">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md">Moodle plugins</a></h3>
 <p><sub>Server-side plugins that extend Moodle for integration-heavy deployments.</sub></p>
-<p><sub><b>1</b> published · <b>2</b> in development</sub></p>
+<p><sub><b>2</b> published · <b>2</b> in development</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>Browse →</b></a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md">NPM packages</a></h3>
 <p><sub>TypeScript libraries for Node.js backends and data layers.</sub></p>
-<p><sub><b>6</b> published</sub></p>
+<p><sub><b>7</b> published</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md"><b>Browse →</b></a></p>
 </td>
 </tr>
