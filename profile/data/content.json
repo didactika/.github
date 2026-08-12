@@ -225,24 +225,6 @@
         "en": "MongoDB-backed persistence for ResilientMQ through Mongoose, including event state tracking, serializer support and a shared connection lifecycle.",
         "es": "Persistencia en MongoDB para ResilientMQ mediante Mongoose, con seguimiento del estado de eventos, serializadores y un ciclo de vida de conexión compartido."
       }
-    },
-    {
-      "repo": "resilientmq/types__core",
-      "group": "npm",
-      "name": "@resilientmq/types__core",
-      "desc": {
-        "en": "Declaration-only TypeScript contracts for ResilientMQ core: event messages, stores, queues, consumers and publishers.",
-        "es": "Contratos TypeScript de solo declaraciones para el núcleo de ResilientMQ: eventos, almacenes, colas, consumidores y publicadores."
-      }
-    },
-    {
-      "repo": "resilientmq/types__mongoose-connector",
-      "group": "npm",
-      "name": "@resilientmq/types__mongoose-connector",
-      "desc": {
-        "en": "Type definitions for the Mongoose connector, including custom event schemas, serializers and MongoDB-backed storage contracts.",
-        "es": "Definiciones de tipos para el conector de Mongoose, incluidos esquemas de eventos personalizados, serializadores y contratos de persistencia en MongoDB."
-      }
     }
   ],
 

@@ -49,7 +49,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 <tr><td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md">Paquetes NPM</a></h3>
 <p><sub>Librerías TypeScript para backends y capas de datos en Node.js.</sub></p>
-<p><sub><b>7</b> publicados</sub></p>
+<p><sub><b>5</b> publicados</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
 </td></tr>
 </table>
@@ -85,7 +85,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 
 ## Colaboradores
 
-<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 267 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 111 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
+<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 246 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 111 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
 
 ## Cómo contribuir
 
