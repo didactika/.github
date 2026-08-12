@@ -11,12 +11,7 @@
 
 <p align="center"><strong>Tecnología Didáctica y Software Educativo Open Source</strong></p>
 
-<table>
-<tr><td width="100%" align="center">
-<sub>Iniciativa open source</sub><br>
-<strong><a href="https://github.com/resilientmq">ResilientMQ</a></strong>
-</td></tr>
-</table>
+<p align="center"><sub>Organización miembro · <a href="https://github.com/resilientmq"><strong>ResilientMQ</strong></a></sub></p>
 
 <p align="center">
   <a href="https://didactika.org">didactika.org</a> ·
@@ -40,18 +35,20 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 ## Proyectos
 
 <table>
-<tr><td width="100%" valign="top" align="center">
+<tr>
+<td width="50%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md">Plugins de Moodle</a></h3>
 <p><sub>Plugins de servidor que extienden Moodle para despliegues con mucha integración.</sub></p>
 <p><sub><b>2</b> publicados</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md"><b>Ver todos →</b></a></p>
-</td></tr>
-<tr><td width="100%" valign="top" align="center">
+</td>
+<td width="50%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md">Paquetes NPM</a></h3>
 <p><sub>Librerías TypeScript para backends y capas de datos en Node.js.</sub></p>
 <p><sub><b>5</b> publicados</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
-</td></tr>
+</td>
+</tr>
 </table>
 
 ## En cifras

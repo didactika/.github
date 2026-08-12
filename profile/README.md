@@ -11,12 +11,7 @@
 
 <p align="center"><strong>Educational Technology &amp; Open Source Learning Software</strong></p>
 
-<table>
-<tr><td width="100%" align="center">
-<sub>Open source initiative</sub><br>
-<strong><a href="https://github.com/resilientmq">ResilientMQ</a></strong>
-</td></tr>
-</table>
+<p align="center"><sub>Member organization · <a href="https://github.com/resilientmq"><strong>ResilientMQ</strong></a></sub></p>
 
 <p align="center">
   <a href="https://didactika.org">didactika.org</a> ·
@@ -40,18 +35,20 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 ## Projects
 
 <table>
-<tr><td width="100%" valign="top" align="center">
+<tr>
+<td width="50%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md">Moodle plugins</a></h3>
 <p><sub>Server-side plugins that extend Moodle for integration-heavy deployments.</sub></p>
 <p><sub><b>2</b> published</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>Browse →</b></a></p>
-</td></tr>
-<tr><td width="100%" valign="top" align="center">
+</td>
+<td width="50%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md">NPM packages</a></h3>
 <p><sub>TypeScript libraries for Node.js backends and data layers.</sub></p>
 <p><sub><b>5</b> published</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md"><b>Browse →</b></a></p>
-</td></tr>
+</td>
+</tr>
 </table>
 
 ## By the numbers

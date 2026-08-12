@@ -8,7 +8,7 @@
     "associatedOrganizations": ["resilientmq"],
     "relationships": [
       {
-        "label": { "en": "Open source initiative", "es": "Iniciativa open source" },
+        "label": { "en": "Member organization", "es": "Organización miembro" },
         "name": "ResilientMQ",
         "url": "https://github.com/resilientmq"
       }
