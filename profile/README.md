@@ -11,7 +11,12 @@
 
 <p align="center"><strong>Educational Technology &amp; Open Source Learning Software</strong></p>
 
-
+<table>
+<tr><td width="100%" align="center">
+<sub>Open source initiative</sub><br>
+<strong><a href="https://github.com/resilientmq">ResilientMQ</a></strong>
+</td></tr>
+</table>
 
 <p align="center">
   <a href="https://didactika.org">didactika.org</a> ·
@@ -30,27 +35,23 @@ Didactika is a **technology and educational innovation lab** building open sourc
 
 We believe in free, robust and scalable educational infrastructure, able to meet today's challenges of usability, interactivity and integration. Our goal is to build **production-ready** solutions that serve educational institutions, developers and communities committed to free software alike.
 
-[ResilientMQ](https://github.com/resilientmq) is part of Didactika: our open source initiative for reliable event-driven systems built around RabbitMQ.
-
 > At Didactika, we turn open source into better opportunities to learn.
 
 ## Projects
 
 <table>
-<tr>
-<td width="50%" valign="top">
+<tr><td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md">Moodle plugins</a></h3>
 <p><sub>Server-side plugins that extend Moodle for integration-heavy deployments.</sub></p>
-<p><sub><b>2</b> published · <b>2</b> in development</sub></p>
+<p><sub><b>2</b> published</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>Browse →</b></a></p>
-</td>
-<td width="50%" valign="top">
+</td></tr>
+<tr><td width="100%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md">NPM packages</a></h3>
 <p><sub>TypeScript libraries for Node.js backends and data layers.</sub></p>
-<p><sub><b>7</b> published</sub></p>
+<p><sub><b>5</b> published</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md"><b>Browse →</b></a></p>
-</td>
-</tr>
+</td></tr>
 </table>
 
 ## By the numbers
@@ -84,7 +85,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 
 ## Contributors
 
-<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 267 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 111 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
+<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 246 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 111 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
 
 ## Contributing
 
@@ -108,12 +109,12 @@ A technical team with a background in Moodle, web development, microservices and
 <tr>
 <td width="50%" valign="top">
 <b><a href="https://www.linkedin.com/in/estradaeduardo/">Eduardo Estrada</a></b> · <a href="https://github.com/E2RD0"><code>@E2RD0</code></a><br>
-<sub>Founder</sub>
+<sub><b>Co-Founder</b> · <a href="https://github.com/didactika">Didactika</a></sub>
 <p><sub>Computer engineer with a background in full-stack development, event-driven microservices and Moodle integrations. Combines building tools for virtual campuses with extracting and applying educational data for learning analytics.</sub></p>
 </td>
 <td width="50%" valign="top">
 <b><a href="https://www.linkedin.com/in/hector-arrechea/">Hector Arrechea</a></b> · <a href="https://github.com/hector-ae21"><code>@hector-ae21</code></a><br>
-<sub>Founder</sub>
+<sub><b>Co-Founder</b> · <a href="https://github.com/didactika">Didactika</a><br><b>Founder</b> · <a href="https://github.com/resilientmq">ResilientMQ</a></sub>
 <p><sub>Computer engineer with a master&#39;s in cybersecurity and a background in Moodle, microservices and integrations with educational systems. Brings applied security, design patterns and quality criteria to platform development.</sub></p>
 </td>
 </tr>
