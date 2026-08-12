@@ -32,11 +32,4 @@ Exposes Moodle&#39;s live web-service function catalog as an OpenAPI 3.1 documen
 
 ---
 
-## In development
-
-<sub>Announced on didactika.org, not published to GitHub yet.</sub>
-
-- **local_messagebroker** — A single interface for sending and receiving asynchronous messages against external queues and brokers — RabbitMQ, Kafka, AWS SQS, Azure Service Bus and Google Pub/Sub.
-- **local_eventbus** — An event bus for Moodle: intercepts system actions, enriches them with context (course, user involved) and publishes them to messaging queues.
-
 <sub><a href="https://github.com/didactika">← Back to the Didactika profile</a></sub>

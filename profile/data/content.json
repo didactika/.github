@@ -6,10 +6,27 @@
     "name": "Didactika",
     "website": "https://didactika.org",
     "associatedOrganizations": ["resilientmq"],
+    "relationships": [
+      {
+        "label": { "en": "Open source initiative", "es": "Iniciativa open source" },
+        "name": "ResilientMQ",
+        "url": "https://github.com/resilientmq"
+      }
+    ],
     "tagline": {
       "en": "Educational Technology & Open Source Learning Software",
       "es": "Tecnología Didáctica y Software Educativo Open Source"
     }
+  },
+
+  "sections": {
+    "about": { "enabled": true },
+    "relationships": { "enabled": true },
+    "projects": { "enabled": true, "showPending": false },
+    "metrics": { "enabled": true },
+    "contributors": { "enabled": true },
+    "contributing": { "enabled": true },
+    "founders": { "enabled": true }
   },
 
   "copy": {
@@ -18,13 +35,11 @@
       "body": {
         "en": [
           "Didactika is a **technology and educational innovation lab** building open source projects that drive digital learning.",
-          "We believe in free, robust and scalable educational infrastructure, able to meet today's challenges of usability, interactivity and integration. Our goal is to build **production-ready** solutions that serve educational institutions, developers and communities committed to free software alike.",
-          "[ResilientMQ](https://github.com/resilientmq) is part of Didactika: our open source initiative for reliable event-driven systems built around RabbitMQ."
+          "We believe in free, robust and scalable educational infrastructure, able to meet today's challenges of usability, interactivity and integration. Our goal is to build **production-ready** solutions that serve educational institutions, developers and communities committed to free software alike."
         ],
         "es": [
           "Didactika es un **laboratorio de tecnología e innovación educativa** dedicado a crear proyectos open source que impulsen el aprendizaje digital.",
-          "Creemos en una infraestructura educativa libre, robusta y escalable, capaz de responder a los retos actuales de usabilidad, interactividad e integración. Nuestro objetivo es construir soluciones **listas para producción** que sirvan tanto a instituciones educativas como a desarrolladores y comunidades comprometidas con el software libre.",
-          "[ResilientMQ](https://github.com/resilientmq) forma parte de Didactika: nuestra iniciativa open source para sistemas fiables dirigidos por eventos sobre RabbitMQ."
+          "Creemos en una infraestructura educativa libre, robusta y escalable, capaz de responder a los retos actuales de usabilidad, interactividad e integración. Nuestro objetivo es construir soluciones **listas para producción** que sirvan tanto a instituciones educativas como a desarrolladores y comunidades comprometidas con el software libre."
         ]
       },
       "quote": {
@@ -119,6 +134,7 @@
   "groups": [
     {
       "id": "moodle",
+      "enabled": true,
       "projectTypes": ["moodle-plugin"],
       "label": { "en": "Moodle plugins", "es": "Plugins de Moodle" },
       "blurb": {
@@ -134,6 +150,7 @@
     },
     {
       "id": "npm",
+      "enabled": true,
       "projectTypes": ["npm-package"],
       "label": { "en": "NPM packages", "es": "Paquetes NPM" },
       "blurb": {
@@ -167,26 +184,6 @@
       "desc": {
         "en": "Exposes Moodle's live web-service function catalog as an OpenAPI 3.1 document, with configurable access control and schemas derived from the platform's external API definitions.",
         "es": "Expone el catálogo activo de funciones de servicios web de Moodle como un documento OpenAPI 3.1, con control de acceso configurable y esquemas derivados de las definiciones de la API externa de la plataforma."
-      }
-    },
-    {
-      "repo": "moodle-local_messagebroker",
-      "group": "moodle",
-      "name": "local_messagebroker",
-      "moodleUrl": "https://moodle.org/plugins/local_messagebroker",
-      "desc": {
-        "en": "A single interface for sending and receiving asynchronous messages against external queues and brokers — RabbitMQ, Kafka, AWS SQS, Azure Service Bus and Google Pub/Sub.",
-        "es": "Interfaz única para enviar y recibir mensajes asíncronos contra colas y servidores de mensajería externos: RabbitMQ, Kafka, AWS SQS, Azure Service Bus y Google Pub/Sub."
-      }
-    },
-    {
-      "repo": "moodle-local_eventbus",
-      "group": "moodle",
-      "name": "local_eventbus",
-      "moodleUrl": "https://moodle.org/plugins/local_eventbus",
-      "desc": {
-        "en": "An event bus for Moodle: intercepts system actions, enriches them with context (course, user involved) and publishes them to messaging queues.",
-        "es": "Bus de eventos para Moodle: intercepta acciones del sistema, las enriquece con contexto (curso, usuario involucrado) y las publica en colas de mensajería."
       }
     },
     {
@@ -254,6 +251,13 @@
       "name": "Eduardo Estrada",
       "github": "E2RD0",
       "linkedin": "https://www.linkedin.com/in/estradaeduardo/",
+      "roles": [
+        {
+          "label": { "en": "Co-Founder", "es": "Cofundador" },
+          "name": "Didactika",
+          "url": "https://github.com/didactika"
+        }
+      ],
       "bio": {
         "en": "Computer engineer with a background in full-stack development, event-driven microservices and Moodle integrations. Combines building tools for virtual campuses with extracting and applying educational data for learning analytics.",
         "es": "Ingeniero informático con experiencia en desarrollo full-stack, microservicios orientados a eventos e integraciones con Moodle. Combina la creación de herramientas para campus virtuales con la extracción y uso de datos educativos para analítica del aprendizaje."
@@ -263,6 +267,18 @@
       "name": "Hector Arrechea",
       "github": "hector-ae21",
       "linkedin": "https://www.linkedin.com/in/hector-arrechea/",
+      "roles": [
+        {
+          "label": { "en": "Co-Founder", "es": "Cofundador" },
+          "name": "Didactika",
+          "url": "https://github.com/didactika"
+        },
+        {
+          "label": { "en": "Founder", "es": "Fundador" },
+          "name": "ResilientMQ",
+          "url": "https://github.com/resilientmq"
+        }
+      ],
       "bio": {
         "en": "Computer engineer with a master's in cybersecurity and a background in Moodle, microservices and integrations with educational systems. Brings applied security, design patterns and quality criteria to platform development.",
         "es": "Ingeniero informático y máster en ciberseguridad, con experiencia en Moodle, microservicios e integraciones con sistemas educativos. Su enfoque integra seguridad aplicada, patrones de diseño y criterios de calidad en el desarrollo para plataformas educativas."

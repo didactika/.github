@@ -32,11 +32,4 @@ Expone el catálogo activo de funciones de servicios web de Moodle como un docum
 
 ---
 
-## En desarrollo
-
-<sub>Anunciados en didactika.org, aún no publicados en GitHub.</sub>
-
-- **local_messagebroker** — Interfaz única para enviar y recibir mensajes asíncronos contra colas y servidores de mensajería externos: RabbitMQ, Kafka, AWS SQS, Azure Service Bus y Google Pub/Sub.
-- **local_eventbus** — Bus de eventos para Moodle: intercepta acciones del sistema, las enriquece con contexto (curso, usuario involucrado) y las publica en colas de mensajería.
-
 <sub><a href="https://github.com/didactika/.github/blob/main/profile/README.es.md">← Volver al perfil de Didactika</a></sub>
