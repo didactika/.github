@@ -5,12 +5,10 @@
     "login": "didactika",
     "name": "Didactika",
     "website": "https://didactika.org",
-    "associatedOrganizations": ["resilientmq"],
-    "relationships": [
+    "memberOrganizations": [
       {
-        "label": { "en": "Member organization", "es": "Organización miembro" },
-        "name": "ResilientMQ",
-        "url": "https://github.com/resilientmq"
+        "login": "resilientmq",
+        "name": "ResilientMQ"
       }
     ],
     "tagline": {
@@ -19,14 +17,19 @@
     }
   },
 
+  "theme": {
+    "light": { "brand": "#0d9488" },
+    "dark": { "brand": "#14b8a6" }
+  },
+
   "sections": {
     "about": { "enabled": true },
-    "relationships": { "enabled": true },
     "projects": { "enabled": true, "showPending": false },
     "metrics": { "enabled": true },
     "contributors": { "enabled": true },
     "contributing": { "enabled": true },
-    "founders": { "enabled": true }
+    "founders": { "enabled": true },
+    "memberOrganizations": { "enabled": true }
   },
 
   "copy": {
@@ -123,6 +126,10 @@
         "en": "A technical team with a background in Moodle, web development, microservices and educational integrations.",
         "es": "Un equipo técnico con experiencia en Moodle, desarrollo web, microservicios e integraciones educativas."
       }
+    },
+
+    "memberOrganizations": {
+      "heading": { "en": "Member organizations", "es": "Organizaciones miembro" }
     },
 
     "footer": {
@@ -254,11 +261,6 @@
           "label": { "en": "Co-Founder", "es": "Cofundador" },
           "name": "Didactika",
           "url": "https://github.com/didactika"
-        },
-        {
-          "label": { "en": "Founder", "es": "Fundador" },
-          "name": "ResilientMQ",
-          "url": "https://github.com/resilientmq"
         }
       ],
       "bio": {

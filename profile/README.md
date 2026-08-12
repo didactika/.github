@@ -9,9 +9,9 @@
 
 <h1 align="center">Didactika</h1>
 
-<p align="center"><strong>Educational Technology &amp; Open Source Learning Software</strong></p>
 
-<p align="center"><sub>Member organization · <a href="https://github.com/resilientmq"><strong>ResilientMQ</strong></a></sub></p>
+
+<p align="center"><strong>Educational Technology &amp; Open Source Learning Software</strong></p>
 
 <p align="center">
   <a href="https://didactika.org">didactika.org</a> ·
@@ -111,8 +111,20 @@ A technical team with a background in Moodle, web development, microservices and
 </td>
 <td width="50%" valign="top">
 <b><a href="https://www.linkedin.com/in/hector-arrechea/">Hector Arrechea</a></b> · <a href="https://github.com/hector-ae21"><code>@hector-ae21</code></a><br>
-<sub><b>Co-Founder</b> · <a href="https://github.com/didactika">Didactika</a><br><b>Founder</b> · <a href="https://github.com/resilientmq">ResilientMQ</a></sub>
+<sub><b>Co-Founder</b> · <a href="https://github.com/didactika">Didactika</a></sub>
 <p><sub>Computer engineer with a master&#39;s in cybersecurity and a background in Moodle, microservices and integrations with educational systems. Brings applied security, design patterns and quality criteria to platform development.</sub></p>
+</td>
+</tr>
+</table>
+
+## Member organizations
+
+<table>
+<tr>
+<td width="100%" valign="top" align="center">
+<a href="https://github.com/resilientmq"><img src="https://avatars.githubusercontent.com/u/212049492?v=4&s=160" width="72" height="72" alt="ResilientMQ logo"></a><br>
+<h3><a href="https://github.com/resilientmq">ResilientMQ</a></h3>
+<p><sub>Reliable event processing for RabbitMQ, developed as part of Didactika.</sub></p>
 </td>
 </tr>
 </table>
