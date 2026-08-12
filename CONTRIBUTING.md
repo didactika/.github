@@ -82,6 +82,29 @@ rationale is in [SECURITY.md](SECURITY.md).
   approved. Response times are best-effort; this is a small team, not a
   company with an SLA.
 
+## How these repositories are configured
+
+Branch protection, merge options, security settings, environments and the rest
+are not clicked into each repository by hand. They are declared once, as
+policy, and reconciled with
+[**octoform**](https://www.npmjs.com/package/@hector21/octoform) — a tool
+written for exactly this and released openly:
+[hector-ae21/octoform](https://github.com/hector-ae21/octoform).
+
+Two things follow from that, and both affect you as a contributor:
+
+- **The rules are the same everywhere they apply.** If pull requests are
+  required on one package's version branches, they are required on all of them.
+  A repository that behaves differently is either a different project type — see
+  the branch table above — or drift, and drift here is a bug worth reporting.
+- **Settings changed by hand get reverted.** Not out of strictness: the whole
+  point of declaring them is that the declaration is the truth. If a repository
+  genuinely needs to differ, the change belongs in the policy, so ask a
+  maintainer rather than changing it in the GitHub UI.
+
+The configuration itself is private, since it names private repositories. The
+tool is not, and neither is any of the reasoning behind these conventions.
+
 ## Reporting a bug or requesting a feature
 
 Use the issue templates offered when you open a new issue. They ask for the
