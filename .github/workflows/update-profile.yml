@@ -32,17 +32,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check out the generator
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: didactika/profile-generator
           path: profile-generator
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Generate profile
         env:
