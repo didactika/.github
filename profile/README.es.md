@@ -28,6 +28,8 @@ Didactika es un **laboratorio de tecnología e innovación educativa** dedicado 
 
 Creemos en una infraestructura educativa libre, robusta y escalable, capaz de responder a los retos actuales de usabilidad, interactividad e integración. Nuestro objetivo es construir soluciones **listas para producción** que sirvan tanto a instituciones educativas como a desarrolladores y comunidades comprometidas con el software libre.
 
+[ResilientMQ](https://github.com/resilientmq) forma parte de Didactika: nuestra iniciativa open source para sistemas fiables dirigidos por eventos sobre RabbitMQ.
+
 > En Didactika, transformamos código abierto en oportunidades para aprender mejor.
 
 ## Proyectos
@@ -43,7 +45,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 <td width="50%" valign="top">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md">Paquetes NPM</a></h3>
 <p><sub>Librerías TypeScript para backends y capas de datos en Node.js.</sub></p>
-<p><sub><b>2</b> publicados · <b>1</b> en desarrollo</sub></p>
+<p><sub><b>6</b> publicados</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
 </td>
 </tr>
@@ -80,7 +82,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 
 ## Colaboradores
 
-<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 123 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 109 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a></p>
+<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 267 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 111 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
 
 ## Cómo contribuir
 

@@ -5,6 +5,7 @@
     "login": "didactika",
     "name": "Didactika",
     "website": "https://didactika.org",
+    "associatedOrganizations": ["resilientmq"],
     "tagline": {
       "en": "Educational Technology & Open Source Learning Software",
       "es": "Tecnología Didáctica y Software Educativo Open Source"
@@ -17,11 +18,13 @@
       "body": {
         "en": [
           "Didactika is a **technology and educational innovation lab** building open source projects that drive digital learning.",
-          "We believe in free, robust and scalable educational infrastructure, able to meet today's challenges of usability, interactivity and integration. Our goal is to build **production-ready** solutions that serve educational institutions, developers and communities committed to free software alike."
+          "We believe in free, robust and scalable educational infrastructure, able to meet today's challenges of usability, interactivity and integration. Our goal is to build **production-ready** solutions that serve educational institutions, developers and communities committed to free software alike.",
+          "[ResilientMQ](https://github.com/resilientmq) is part of Didactika: our open source initiative for reliable event-driven systems built around RabbitMQ."
         ],
         "es": [
           "Didactika es un **laboratorio de tecnología e innovación educativa** dedicado a crear proyectos open source que impulsen el aprendizaje digital.",
-          "Creemos en una infraestructura educativa libre, robusta y escalable, capaz de responder a los retos actuales de usabilidad, interactividad e integración. Nuestro objetivo es construir soluciones **listas para producción** que sirvan tanto a instituciones educativas como a desarrolladores y comunidades comprometidas con el software libre."
+          "Creemos en una infraestructura educativa libre, robusta y escalable, capaz de responder a los retos actuales de usabilidad, interactividad e integración. Nuestro objetivo es construir soluciones **listas para producción** que sirvan tanto a instituciones educativas como a desarrolladores y comunidades comprometidas con el software libre.",
+          "[ResilientMQ](https://github.com/resilientmq) forma parte de Didactika: nuestra iniciativa open source para sistemas fiables dirigidos por eventos sobre RabbitMQ."
         ]
       },
       "quote": {
@@ -196,13 +199,41 @@
       }
     },
     {
-      "repo": "resilientmq-core",
+      "repo": "resilientmq/core",
       "group": "npm",
       "name": "@resilientmq/core",
       "npm": "@resilientmq/core",
       "desc": {
         "en": "A lightweight asynchronous messaging engine for Node.js and TypeScript, with automatic retries, local persistence and active tolerance to system failures.",
         "es": "Motor de mensajería asíncrona ligero para Node.js y TypeScript, con reintentos automáticos, almacenamiento local y tolerancia activa a caídas del sistema."
+      }
+    },
+    {
+      "repo": "resilientmq/mongoose-connector",
+      "group": "npm",
+      "name": "@resilientmq/mongoose-connector",
+      "npm": "@resilientmq/mongoose-connector",
+      "desc": {
+        "en": "MongoDB-backed persistence for ResilientMQ through Mongoose, including event state tracking, serializer support and a shared connection lifecycle.",
+        "es": "Persistencia en MongoDB para ResilientMQ mediante Mongoose, con seguimiento del estado de eventos, serializadores y un ciclo de vida de conexión compartido."
+      }
+    },
+    {
+      "repo": "resilientmq/types__core",
+      "group": "npm",
+      "name": "@resilientmq/types__core",
+      "desc": {
+        "en": "Declaration-only TypeScript contracts for ResilientMQ core: event messages, stores, queues, consumers and publishers.",
+        "es": "Contratos TypeScript de solo declaraciones para el núcleo de ResilientMQ: eventos, almacenes, colas, consumidores y publicadores."
+      }
+    },
+    {
+      "repo": "resilientmq/types__mongoose-connector",
+      "group": "npm",
+      "name": "@resilientmq/types__mongoose-connector",
+      "desc": {
+        "en": "Type definitions for the Mongoose connector, including custom event schemas, serializers and MongoDB-backed storage contracts.",
+        "es": "Definiciones de tipos para el conector de Mongoose, incluidos esquemas de eventos personalizados, serializadores y contratos de persistencia en MongoDB."
       }
     }
   ],
