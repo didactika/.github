@@ -1,7 +1,7 @@
 <!--
   GENERATED FILE — DO NOT EDIT.
   Rendered from profile/data/content.json + the GitHub API by
-  profile-generator. Last generated: 2026-08-18
+  profile-generator. Last generated: 2026-08-19
 -->
 
 <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-on-dark.svg"><img alt="EN" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-on-light.svg" height="32"></picture></a><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-off-dark.svg"><img alt="ES" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-off-light.svg" height="32"></picture></a>
