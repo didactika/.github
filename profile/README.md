@@ -37,7 +37,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 <td width="50%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md">Moodle plugins</a></h3>
 <p><sub>Server-side plugins that extend Moodle for integration-heavy deployments.</sub></p>
-<p><sub><b>3</b> published</sub></p>
+<p><sub><b>2</b> published</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>Browse →</b></a></p>
 </td>
 <td width="50%" valign="top" align="center">
@@ -80,7 +80,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 
 ## Contributors
 
-<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 252 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 111 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
+<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 247 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 111 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 2 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
 
 ## Contributing
 
