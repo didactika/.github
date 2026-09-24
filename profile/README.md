@@ -96,6 +96,14 @@ The full versions of these apply to every repository in the organisation, and ar
 <sub><a href="https://github.com/didactika/.github/blob/main/CONTRIBUTING.md">Contributing guide</a> · <a href="https://github.com/didactika/.github/blob/main/SECURITY.md">Security policy and versioning</a> · <a href="https://github.com/didactika/.github/blob/main/CODE_OF_CONDUCT.md">Code of conduct</a></sub>
 
 
+## Support Didactika
+
+  If our open source projects are useful to you, you can support their continued development and maintenance through Ko-fi.
+
+  <p align="center">
+    <a href="https://ko-fi.com/E8Z227LE7M"><strong>☕ Support us on Ko-fi</strong></a>
+  </p>
+
 ## Founders
 
 A technical team with a background in Moodle, web development, microservices and educational integrations.
