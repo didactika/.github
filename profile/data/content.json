@@ -28,6 +28,7 @@
     "metrics": { "enabled": true },
     "contributors": { "enabled": true },
     "contributing": { "enabled": true },
+    "donations": { "enabled": true, "url": "https://ko-fi.com/E8Z227LE7M" },
     "founders": { "enabled": true },
     "memberOrganizations": { "enabled": true }
   },
@@ -118,7 +119,20 @@
         }
       ]
     },
-
+    "donations": {
+      "heading": {
+        "en": "Support Didactika",
+        "es": "Apoya a Didactika"
+      },
+      "body": {
+        "en": "If our open source projects are useful to you, you can support their continued development and maintenance through Ko-fi.",
+        "es": "Si nuestros proyectos open source te resultan útiles, puedes apoyar su desarrollo y mantenimiento a través de Ko-fi."
+      },
+      "button": {
+        "en": "Support us on Ko-fi",
+        "es": "Apóyanos en Ko-fi"
+      }
+    },
     "founders": {
       "heading": { "en": "Founders", "es": "Fundadores" },
       "role": { "en": "Founder", "es": "Fundador" },
