@@ -37,7 +37,7 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 <td width="50%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md">Plugins de Moodle</a></h3>
 <p><sub>Plugins de servidor que extienden Moodle para despliegues con mucha integración.</sub></p>
-<p><sub><b>4</b> publicados</sub></p>
+<p><sub><b>5</b> publicados</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md"><b>Ver todos →</b></a></p>
 </td>
 <td width="50%" valign="top" align="center">
