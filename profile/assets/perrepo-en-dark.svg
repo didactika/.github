@@ -15,14 +15,14 @@
 </style>
 <g transform="translate(30,0)">
 <text x="0" y="16" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="start">Commits by repository</text>
-<text x="0" y="43.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="start">resilientmq/core</text>
+<text x="0" y="43.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="start">moodle-local_autograder</text>
 <rect x="239" y="34" width="219" height="11" rx="5" fill="#21262d"/>
-<rect class="bar" style="--d:0.00s" x="239" y="34" width="168.8" height="11" rx="5" fill="#14b8a6"/>
-<g class="fade" style="--d:0.00s"><text x="520" y="43.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" fill="#c3c2b7" text-anchor="end">84</text></g>
-<text x="0" y="71.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="start">moodle-local_autograder</text>
+<rect class="bar" style="--d:0.00s" x="239" y="34" width="172.8" height="11" rx="5" fill="#14b8a6"/>
+<g class="fade" style="--d:0.00s"><text x="520" y="43.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" fill="#c3c2b7" text-anchor="end">86</text></g>
+<text x="0" y="71.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="start">resilientmq/core</text>
 <rect x="239" y="62" width="219" height="11" rx="5" fill="#21262d"/>
-<rect class="bar" style="--d:0.07s" x="239" y="62" width="164.8" height="11" rx="5" fill="#14b8a6"/>
-<g class="fade" style="--d:0.07s"><text x="520" y="71.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" fill="#c3c2b7" text-anchor="end">82</text></g>
+<rect class="bar" style="--d:0.07s" x="239" y="62" width="168.8" height="11" rx="5" fill="#14b8a6"/>
+<g class="fade" style="--d:0.07s"><text x="520" y="71.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" fill="#c3c2b7" text-anchor="end">84</text></g>
 <text x="0" y="99.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="start">moodle-report_autograder</text>
 <rect x="239" y="90" width="219" height="11" rx="5" fill="#21262d"/>
 <rect class="bar" style="--d:0.14s" x="239" y="90" width="162.7" height="11" rx="5" fill="#14b8a6"/>
