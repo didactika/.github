@@ -208,6 +208,24 @@
       }
     },
     {
+      "repo": "moodle-local_autograder",
+      "group": "moodle",
+      "name": "local_autograder",
+      "desc": {
+        "en": "Automatically grades completed activities a teacher hasn't graded after the deadline.",
+        "es": "Califica automáticamente las actividades completadas que un docente no ha calificado tras la fecha límite."
+      }
+    },
+    {
+      "repo": "moodle-report_autograder",
+      "group": "moodle",
+      "name": "report_autograder",
+      "desc": {
+        "en": "Report to review what the Autograder local plugin graded, what is pending and what failed, per activity, course or site.",
+        "es": "Informe para revisar qué calificó el plugin local Autograder, qué está pendiente y qué falló, por actividad, curso o sitio."
+      }
+    },
+    {
       "repo": "prisma-entity",
       "group": "npm",
       "name": "prisma-entity",
