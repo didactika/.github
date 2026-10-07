@@ -37,7 +37,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 <td width="50%" valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md">Moodle plugins</a></h3>
 <p><sub>Server-side plugins that extend Moodle for integration-heavy deployments.</sub></p>
-<p><sub><b>5</b> published</sub></p>
+<p><sub><b>7</b> published</sub></p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>Browse →</b></a></p>
 </td>
 <td width="50%" valign="top" align="center">
