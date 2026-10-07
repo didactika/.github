@@ -101,7 +101,7 @@ Las versiones completas se aplican a todos los repositorios de la organización,
   Si nuestros proyectos open source te resultan útiles, puedes apoyar su desarrollo y mantenimiento a través de Ko-fi.
 
   <p align="center">
-    <a href="https://ko-fi.com/E8Z227LE7M"><strong>☕ Apóyanos en Ko-fi</strong></a>
+    <a href="https://ko-fi.com/didactika"><strong>☕ Apóyanos en Ko-fi</strong></a>
   </p>
 
 ## Fundadores
