@@ -28,7 +28,7 @@
     "metrics": { "enabled": true },
     "contributors": { "enabled": true },
     "contributing": { "enabled": true },
-    "donations": { "enabled": true, "url": "https://ko-fi.com/E8Z227LE7M" },
+    "donations": { "enabled": true, "url": "https://ko-fi.com/didactika" },
     "founders": { "enabled": true },
     "memberOrganizations": { "enabled": true }
   },
