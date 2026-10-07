@@ -42,21 +42,21 @@ Exposes Moodle&#39;s live web-service function catalog as an OpenAPI 3.1 documen
 
 ---
 
-<h3><a href="https://github.com/didactika/moodle-local_autograder">moodle-local_autograder</a></h3>
+<h3><a href="https://github.com/didactika/moodle-local_autograder">local_autograder</a></h3>
 
 <p><img alt="PHP" src="https://img.shields.io/badge/PHP-1f2328?style=flat-square"> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-local_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-local_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/moodle-local_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/moodle-local_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
 
-moodle-local_autograder
+Automatically grades completed activities a teacher hasn&#39;t graded after the deadline.
 
 <sub><a href="https://github.com/didactika/moodle-local_autograder">GitHub</a></sub>
 
 ---
 
-<h3><a href="https://github.com/didactika/moodle-report_autograder">moodle-report_autograder</a></h3>
+<h3><a href="https://github.com/didactika/moodle-report_autograder">report_autograder</a></h3>
 
 <p><img alt="PHP" src="https://img.shields.io/badge/PHP-1f2328?style=flat-square"> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-report_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-report_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/moodle-report_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/moodle-report_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
 
-moodle-report_autograder
+Report to review what the Autograder local plugin graded, what is pending and what failed, per activity, course or site.
 
 <sub><a href="https://github.com/didactika/moodle-report_autograder">GitHub</a></sub>
 
