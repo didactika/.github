@@ -1,7 +1,7 @@
 <!--
   GENERATED FILE — DO NOT EDIT.
   Rendered from profile/data/content.json + the GitHub API by
-  profile-generator. Last generated: 2026-10-12
+  profile-generator. Last generated: 2026-10-13
 -->
 
 <a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-on-dark.svg"><img alt="EN" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-on-light.svg" height="32"></picture></a><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-off-dark.svg"><img alt="ES" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-off-light.svg" height="32"></picture></a>
@@ -10,41 +10,28 @@
 
 TypeScript libraries for Node.js backends and data layers.
 
----
-
-<h3><a href="https://github.com/didactika/prisma-entity">prisma-entity</a></h3>
-
-<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@didactika/prisma-entity?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@didactika/prisma-entity?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/prisma-entity?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/prisma-entity?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/prisma-entity?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
-
-Adds the Active Record pattern, a declarative query builder, cross-engine case-insensitive search, database-aware batch operations and automatic pagination on top of Prisma Client — without giving up Prisma&#39;s type safety.
-
-```bash
-npm install @didactika/prisma-entity
-```
-
-<p><sub><b>Maintained lines:</b> <code>3.x</code> · <code>2.x</code></sub></p>
-
-<sub><a href="https://github.com/didactika/prisma-entity">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/prisma-entity">npm</a></sub>
+<p><b>6 packages</b></p>
 
 ---
 
-<h3><a href="https://github.com/didactika/prisma-autoread">@didactika/prisma-autoread</a></h3>
+## Find a package
 
-<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
-
-Drop-in search endpoints for Express + Prisma. One declaration gives you filtering, sorting, field selection, relation includes, aggregations and pagination — over bracket query strings, JSON bodies, RSQL/FIQL or OData, with HAL, JSON:API or CSV output.
-
-```bash
-npm install @didactika/prisma-autoread
-```
-
-<sub><a href="https://github.com/didactika/prisma-autoread">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/prisma-autoread">npm</a></sub>
+| Package | What it does | Latest | Maintained | Install |
+|:--|:--|:-:|:-:|:--|
+| <a href="#didactikamoodle-client"><b>@didactika/moodle-client</b></a> | TypeScript client that builds and sends authenticated requests to Moodle&#39;s web services API, handling tokens… | <a href="https://github.com/didactika/moodle-client/releases/tag/v2.1.0">v2.1.0</a> | <code>2.x</code> <code>1.x</code> | <code>npm install @didactika/moodle-client</code> |
+| <a href="#didactikaprisma-autoread"><b>@didactika/prisma-autoread</b></a> | Drop-in search endpoints for Express + Prisma | <a href="https://github.com/didactika/prisma-autoread/releases/tag/v1.2.0">v1.2.0</a> | — | <code>npm install @didactika/prisma-autoread</code> |
+| <a href="#moodle-client-schemas"><b>moodle-client-schemas</b></a> | — | — | — | — |
+| <a href="#prisma-entity"><b>prisma-entity</b></a> | Adds the Active Record pattern, a declarative query builder, cross-engine case-insensitive search,… | <a href="https://github.com/didactika/prisma-entity/releases/tag/v3.1.3">v3.1.3</a> | <code>3.x</code> <code>2.x</code> | <code>npm install @didactika/prisma-entity</code> |
+| <a href="#resilientmqcore"><b>@resilientmq/core</b></a> | A lightweight asynchronous messaging engine for Node.js and TypeScript, with automatic retries, local… | <a href="https://github.com/resilientmq/core/releases/tag/v3.0.1">v3.0.1</a> | — | <code>npm install @resilientmq/core</code> |
+| <a href="#resilientmqmongoose-connector"><b>@resilientmq/mongoose-connector</b></a> | MongoDB-backed persistence for ResilientMQ through Mongoose, including event state tracking, serializer… | <a href="https://github.com/resilientmq/mongoose-connector/releases/tag/v3.0.0">v3.0.0</a> | — | <code>npm install @resilientmq/mongoose-connector</code> |
 
 ---
 
-<h3><a href="https://github.com/didactika/moodle-client">@didactika/moodle-client</a></h3>
+## Details
 
-<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
+### @didactika/moodle-client
+
+<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-client?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
 
 TypeScript client that builds and sends authenticated requests to Moodle&#39;s web services API, handling tokens and HTTP methods for you.
 
@@ -52,15 +39,62 @@ TypeScript client that builds and sends authenticated requests to Moodle&#39;s w
 npm install @didactika/moodle-client
 ```
 
-<p><sub><b>Maintained lines:</b> <code>2.x</code> · <code>1.x</code></sub></p>
+<p><b>Maintained lines:</b> <code>2.x</code> · <code>1.x</code></p>
 
-<sub><a href="https://github.com/didactika/moodle-client">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/moodle-client">npm</a></sub>
+<sub><a href="https://github.com/didactika/moodle-client">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/moodle-client">npm</a> · <a href="https://github.com/didactika/moodle-client/releases">Releases</a></sub>
+
+<sub><a href="#">↑</a></sub>
 
 ---
 
-<h3><a href="https://github.com/resilientmq/core">@resilientmq/core</a></h3>
+### @didactika/prisma-autoread
 
-<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
+<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/prisma-autoread?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
+
+Drop-in search endpoints for Express + Prisma. One declaration gives you filtering, sorting, field selection, relation includes, aggregations and pagination — over bracket query strings, JSON bodies, RSQL/FIQL or OData, with HAL, JSON:API or CSV output.
+
+```bash
+npm install @didactika/prisma-autoread
+```
+
+<sub><a href="https://github.com/didactika/prisma-autoread">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/prisma-autoread">npm</a> · <a href="https://github.com/didactika/prisma-autoread/releases">Releases</a></sub>
+
+<sub><a href="#">↑</a></sub>
+
+---
+
+### moodle-client-schemas
+
+<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-client-schemas?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-client-schemas?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
+
+
+<sub><a href="https://github.com/didactika/moodle-client-schemas">GitHub</a> · <a href="https://github.com/didactika/moodle-client-schemas/releases">Releases</a></sub>
+
+<sub><a href="#">↑</a></sub>
+
+---
+
+### prisma-entity
+
+<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@didactika/prisma-entity?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@didactika/prisma-entity?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/didactika/prisma-entity?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
+
+Adds the Active Record pattern, a declarative query builder, cross-engine case-insensitive search, database-aware batch operations and automatic pagination on top of Prisma Client — without giving up Prisma&#39;s type safety.
+
+```bash
+npm install @didactika/prisma-entity
+```
+
+<p><b>Maintained lines:</b> <code>3.x</code> · <code>2.x</code></p>
+
+<sub><a href="https://github.com/didactika/prisma-entity">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/prisma-entity">npm</a> · <a href="https://github.com/didactika/prisma-entity/releases">Releases</a></sub>
+
+<sub><a href="#">↑</a></sub>
+
+---
+
+### @resilientmq/core
+
+<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/resilientmq/core?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
 
 A lightweight asynchronous messaging engine for Node.js and TypeScript, with automatic retries, local persistence and active tolerance to system failures.
 
@@ -68,13 +102,15 @@ A lightweight asynchronous messaging engine for Node.js and TypeScript, with aut
 npm install @resilientmq/core
 ```
 
-<sub><a href="https://github.com/resilientmq/core">GitHub</a> · <a href="https://www.npmjs.com/package/@resilientmq/core">npm</a></sub>
+<sub><a href="https://github.com/resilientmq/core">GitHub</a> · <a href="https://www.npmjs.com/package/@resilientmq/core">npm</a> · <a href="https://github.com/resilientmq/core/releases">Releases</a></sub>
+
+<sub><a href="#">↑</a></sub>
 
 ---
 
-<h3><a href="https://github.com/resilientmq/mongoose-connector">@resilientmq/mongoose-connector</a></h3>
+### @resilientmq/mongoose-connector
 
-<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@resilientmq/mongoose-connector?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@resilientmq/mongoose-connector?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/resilientmq/mongoose-connector?style=flat-square&color=0d9488&labelColor=1f2328&label=license"> <img alt="stars" src="https://img.shields.io/github/stars/resilientmq/mongoose-connector?style=flat-square&color=0d9488&labelColor=1f2328&label=stars"> <img alt="last commit" src="https://img.shields.io/github/last-commit/resilientmq/mongoose-connector?style=flat-square&color=0d9488&labelColor=1f2328&label=last%20commit"></p>
+<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="npm version" src="https://img.shields.io/npm/v/@resilientmq/mongoose-connector?style=flat-square&color=0d9488&labelColor=1f2328&label=npm"> <img alt="npm downloads" src="https://img.shields.io/npm/dm/@resilientmq/mongoose-connector?style=flat-square&color=0d9488&labelColor=1f2328&label=downloads"> <img alt="license" src="https://img.shields.io/github/license/resilientmq/mongoose-connector?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
 
 MongoDB-backed persistence for ResilientMQ through Mongoose, including event state tracking, serializer support and a shared connection lifecycle.
 
@@ -82,8 +118,11 @@ MongoDB-backed persistence for ResilientMQ through Mongoose, including event sta
 npm install @resilientmq/mongoose-connector
 ```
 
-<sub><a href="https://github.com/resilientmq/mongoose-connector">GitHub</a> · <a href="https://www.npmjs.com/package/@resilientmq/mongoose-connector">npm</a></sub>
+<sub><a href="https://github.com/resilientmq/mongoose-connector">GitHub</a> · <a href="https://www.npmjs.com/package/@resilientmq/mongoose-connector">npm</a> · <a href="https://github.com/resilientmq/mongoose-connector/releases">Releases</a></sub>
+
+<sub><a href="#">↑</a></sub>
 
 ---
+
 
 <sub><a href="https://github.com/didactika">← Back to the Didactika profile</a></sub>
