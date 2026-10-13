@@ -10,7 +10,7 @@
 
 Librerías TypeScript para backends y capas de datos en Node.js.
 
-<p><b>6 paquetes</b> · <b>1</b> sin publicar</p>
+<p><b>6 paquetes</b> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/npm-unpublished.es.md"><b>1</b> sin publicar</a></p>
 
 ---
 
@@ -101,23 +101,5 @@ npm install @resilientmq/mongoose-connector
 <sub><a href="https://github.com/resilientmq/mongoose-connector">GitHub</a> · <a href="https://www.npmjs.com/package/@resilientmq/mongoose-connector">npm</a> · <a href="https://github.com/resilientmq/mongoose-connector/releases">Versiones</a></sub>
 
 ---
-
-## Paquetes sin publicar
-
-<sub>Aún no están en npm. Se pueden usar desde su repositorio.</sub>
-
-| Paquete | Qué hace | Última | Mantenidas | Instalar |
-|:--|:--|:-:|:-:|:--|
-| <a href="#moodle-client-schemas"><b>moodle-client-schemas</b></a> | — | — | — | — |
-
-### moodle-client-schemas
-
-<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-client-schemas?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-client-schemas?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
-
-
-<sub><a href="https://github.com/didactika/moodle-client-schemas">GitHub</a> · <a href="https://github.com/didactika/moodle-client-schemas/releases">Versiones</a></sub>
-
----
-
 
 <sub><a href="https://github.com/didactika/.github/blob/main/profile/README.es.md">← Volver al perfil de Didactika</a></sub>

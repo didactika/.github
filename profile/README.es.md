@@ -34,17 +34,20 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center">
+<td valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md">Plugins de Moodle</a></h3>
-<p><sub>Plugins que añaden funciones a Moodle para docentes, administración e integraciones.</sub></p>
-<p><sub><b>1</b> publicados · <b>8</b> sin publicar</sub></p>
-<p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md"><b>Ver todos →</b></a></p>
+<p>Plugins que añaden funciones a Moodle para docentes, administración e integraciones.</p>
+<p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md"><b>1</b> publicados</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.es.md"><b>8</b> sin publicar</a></p>
 </td>
-<td width="50%" valign="top" align="center">
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top" align="center">
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md">Paquetes NPM</a></h3>
-<p><sub>Librerías TypeScript para backends y capas de datos en Node.js.</sub></p>
-<p><sub><b>5</b> publicados · <b>1</b> sin publicar</sub></p>
-<p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><b>Ver todos →</b></a></p>
+<p>Librerías TypeScript para backends y capas de datos en Node.js.</p>
+<p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><b>5</b> publicados</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/npm-unpublished.es.md"><b>1</b> sin publicar</a></p>
 </td>
 </tr>
 </table>
