@@ -10,7 +10,7 @@
 
 Librerías TypeScript para backends y capas de datos en Node.js.
 
-<p><b>6 paquetes</b></p>
+<p><b>6 paquetes</b> · <b>1</b> sin publicar</p>
 
 ---
 
@@ -20,7 +20,6 @@ Librerías TypeScript para backends y capas de datos en Node.js.
 |:--|:--|:-:|:-:|:--|
 | <a href="#didactikamoodle-client"><b>@didactika/moodle-client</b></a> | TypeScript client that builds and sends authenticated requests to Moodle&#39;s web services API, handling tokens… | <a href="https://github.com/didactika/moodle-client/releases/tag/v2.1.0">v2.1.0</a> | <code>2.x</code> <code>1.x</code> | <code>npm install @didactika/moodle-client</code> |
 | <a href="#didactikaprisma-autoread"><b>@didactika/prisma-autoread</b></a> | Endpoints de búsqueda drop-in para Express + Prisma | <a href="https://github.com/didactika/prisma-autoread/releases/tag/v1.2.0">v1.2.0</a> | — | <code>npm install @didactika/prisma-autoread</code> |
-| <a href="#moodle-client-schemas"><b>moodle-client-schemas</b></a> | — | — | — | — |
 | <a href="#prisma-entity"><b>prisma-entity</b></a> | Añade patrón Active Record, query builder declarativo, búsqueda case-insensitive multi-motor, operaciones… | <a href="https://github.com/didactika/prisma-entity/releases/tag/v3.1.3">v3.1.3</a> | <code>3.x</code> <code>2.x</code> | <code>npm install @didactika/prisma-entity</code> |
 | <a href="#resilientmqcore"><b>@resilientmq/core</b></a> | Motor de mensajería asíncrona ligero para Node.js y TypeScript, con reintentos automáticos, almacenamiento… | <a href="https://github.com/resilientmq/core/releases/tag/v3.0.1">v3.0.1</a> | — | <code>npm install @resilientmq/core</code> |
 | <a href="#resilientmqmongoose-connector"><b>@resilientmq/mongoose-connector</b></a> | Persistencia en MongoDB para ResilientMQ mediante Mongoose, con seguimiento del estado de eventos,… | <a href="https://github.com/resilientmq/mongoose-connector/releases/tag/v3.0.0">v3.0.0</a> | — | <code>npm install @resilientmq/mongoose-connector</code> |
@@ -43,8 +42,6 @@ npm install @didactika/moodle-client
 
 <sub><a href="https://github.com/didactika/moodle-client">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/moodle-client">npm</a> · <a href="https://github.com/didactika/moodle-client/releases">Versiones</a></sub>
 
-<sub><a href="#">↑</a></sub>
-
 ---
 
 ### @didactika/prisma-autoread
@@ -58,19 +55,6 @@ npm install @didactika/prisma-autoread
 ```
 
 <sub><a href="https://github.com/didactika/prisma-autoread">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/prisma-autoread">npm</a> · <a href="https://github.com/didactika/prisma-autoread/releases">Versiones</a></sub>
-
-<sub><a href="#">↑</a></sub>
-
----
-
-### moodle-client-schemas
-
-<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-client-schemas?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-client-schemas?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
-
-
-<sub><a href="https://github.com/didactika/moodle-client-schemas">GitHub</a> · <a href="https://github.com/didactika/moodle-client-schemas/releases">Versiones</a></sub>
-
-<sub><a href="#">↑</a></sub>
 
 ---
 
@@ -88,8 +72,6 @@ npm install @didactika/prisma-entity
 
 <sub><a href="https://github.com/didactika/prisma-entity">GitHub</a> · <a href="https://www.npmjs.com/package/@didactika/prisma-entity">npm</a> · <a href="https://github.com/didactika/prisma-entity/releases">Versiones</a></sub>
 
-<sub><a href="#">↑</a></sub>
-
 ---
 
 ### @resilientmq/core
@@ -103,8 +85,6 @@ npm install @resilientmq/core
 ```
 
 <sub><a href="https://github.com/resilientmq/core">GitHub</a> · <a href="https://www.npmjs.com/package/@resilientmq/core">npm</a> · <a href="https://github.com/resilientmq/core/releases">Versiones</a></sub>
-
-<sub><a href="#">↑</a></sub>
 
 ---
 
@@ -120,7 +100,22 @@ npm install @resilientmq/mongoose-connector
 
 <sub><a href="https://github.com/resilientmq/mongoose-connector">GitHub</a> · <a href="https://www.npmjs.com/package/@resilientmq/mongoose-connector">npm</a> · <a href="https://github.com/resilientmq/mongoose-connector/releases">Versiones</a></sub>
 
-<sub><a href="#">↑</a></sub>
+---
+
+## Paquetes sin publicar
+
+<sub>Aún no están en npm. Se pueden usar desde su repositorio.</sub>
+
+| Paquete | Qué hace | Última | Mantenidas | Instalar |
+|:--|:--|:-:|:-:|:--|
+| <a href="#moodle-client-schemas"><b>moodle-client-schemas</b></a> | — | — | — | — |
+
+### moodle-client-schemas
+
+<p><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1f2328?style=flat-square"> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-client-schemas?style=flat-square&color=0d9488&labelColor=1f2328&label=release"> <img alt="license" src="https://img.shields.io/github/license/didactika/moodle-client-schemas?style=flat-square&color=0d9488&labelColor=1f2328&label=license"></p>
+
+
+<sub><a href="https://github.com/didactika/moodle-client-schemas">GitHub</a> · <a href="https://github.com/didactika/moodle-client-schemas/releases">Versiones</a></sub>
 
 ---
 
