@@ -34,20 +34,19 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 
 <table>
 <tr>
-<td valign="top" align="center">
+<td width="50%" valign="top" align="center">
+<p>&nbsp;</p>
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md">Moodle plugins</a></h3>
 <p>Plugins that add features to Moodle for teachers, administrators and integrations.</p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>1</b> published</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.md"><b>8</b> unpublished</a></p>
+<p>&nbsp;</p>
 </td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td valign="top" align="center">
+<td width="50%" valign="top" align="center">
+<p>&nbsp;</p>
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md">NPM packages</a></h3>
 <p>TypeScript libraries for Node.js backends and data layers.</p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.md"><b>5</b> published</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/npm-unpublished.md"><b>1</b> unpublished</a></p>
+<p>&nbsp;</p>
 </td>
 </tr>
 </table>

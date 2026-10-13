@@ -34,20 +34,19 @@ Creemos en una infraestructura educativa libre, robusta y escalable, capaz de re
 
 <table>
 <tr>
-<td valign="top" align="center">
+<td width="50%" valign="top" align="center">
+<p>&nbsp;</p>
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md">Plugins de Moodle</a></h3>
 <p>Plugins que añaden funciones a Moodle para docentes, administración e integraciones.</p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md"><b>1</b> publicados</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.es.md"><b>8</b> sin publicar</a></p>
+<p>&nbsp;</p>
 </td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td valign="top" align="center">
+<td width="50%" valign="top" align="center">
+<p>&nbsp;</p>
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md">Paquetes NPM</a></h3>
 <p>Librerías TypeScript para backends y capas de datos en Node.js.</p>
 <p><a href="https://github.com/didactika/.github/blob/main/profile/projects/npm.es.md"><b>5</b> publicados</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/npm-unpublished.es.md"><b>1</b> sin publicar</a></p>
+<p>&nbsp;</p>
 </td>
 </tr>
 </table>
