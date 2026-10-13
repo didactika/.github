@@ -159,8 +159,8 @@
       "projectTypes": ["moodle-plugin"],
       "label": { "en": "Moodle plugins", "es": "Plugins de Moodle" },
       "blurb": {
-        "en": "Server-side plugins that extend Moodle for integration-heavy deployments.",
-        "es": "Plugins de servidor que extienden Moodle para despliegues con mucha integración."
+        "en": "Plugins that add features to Moodle for teachers, administrators and integrations.",
+        "es": "Plugins que añaden funciones a Moodle para docentes, administración e integraciones."
       },
       "supportedBranches": {
         "$comment": "Which Moodle versions a plugin supports is derived from its live MOODLE_XXX_STABLE branches, never written here: a version whose branch has been deleted stops being advertised on its own. style 'moodle' turns 405 into 4.5.",
