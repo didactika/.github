@@ -1,7 +1,7 @@
 <!--
   GENERATED FILE — DO NOT EDIT.
   Rendered from profile/data/content.json + the GitHub API by
-  profile-generator. Last generated: 2026-10-13
+  profile-generator. Last generated: 2026-10-14
 -->
 
 <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-on-dark.svg"><img alt="EN" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-on-light.svg" height="32"></picture></a><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-off-dark.svg"><img alt="ES" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-off-light.svg" height="32"></picture></a>
@@ -20,11 +20,11 @@ Not in the Moodle plugins directory yet. They can be installed from their reposi
 |:--|:--|:-:|:-:|:-:|
 | <a href="#local_autograder"><b>local_autograder</b></a> | Automatically grades completed activities a teacher hasn&#39;t graded after the deadline | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_autograder/releases/tag/v4.5.0">v4.5.0</a> |
 | <a href="#local_delegateaccount"><b>local_delegateaccount</b></a> | Moodle local plugin for granting authorised users access to specific accounts through Moodle&#39;s built-in Log… | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_delegateaccount/releases/tag/v4.5.0">v4.5.0</a> |
-| <a href="#local_filebank"><b>local_filebank</b></a> | Moodle local plugin that organises the public files of related courses into a reusable library, with profiles… | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_filebank/releases/tag/v5.3.1">v5.3.1</a> |
-| <a href="#local_iconrestyle"><b>local_iconrestyle</b></a> | Moodle local plugin to restyle the icons of the whole site, a category, a course or an activity from one… | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_iconrestyle/releases/tag/v5.3.2">v5.3.2</a> |
+| <a href="#local_filebank"><b>local_filebank</b></a> | Moodle local plugin that organises the public files of related courses into a reusable library, with profiles… | 4.0 – 5.3 | 8.3+ | — |
+| <a href="#local_iconrestyle"><b>local_iconrestyle</b></a> | Moodle local plugin to restyle the icons of the whole site, a category, a course or an activity from one… | 4.0 – 5.3 | 8.3+ | — |
 | <a href="#report_autograder"><b>report_autograder</b></a> | Report to review what the Autograder local plugin graded, what is pending and what failed, per activity,… | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-report_autograder/releases/tag/v4.5.0">v4.5.0</a> |
-| <a href="#repository_filebank"><b>repository_filebank</b></a> | Moodle repository plugin that offers the FileBank library inside the file picker, so teachers can pick files… | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-repository_filebank/releases/tag/v5.3.1">v5.3.1</a> |
-| <a href="#repository_multipicker"><b>repository_multipicker</b></a> | Moodle repository plugin that adds multiple selection of files and folders, with a review before the import,… | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-repository_multipicker/releases/tag/v5.3.1">v5.3.1</a> |
+| <a href="#repository_filebank"><b>repository_filebank</b></a> | Moodle repository plugin that offers the FileBank library inside the file picker, so teachers can pick files… | 4.0 – 5.3 | 8.3+ | — |
+| <a href="#repository_multipicker"><b>repository_multipicker</b></a> | Moodle repository plugin that adds multiple selection of files and folders, with a review before the import,… | 4.0 – 5.3 | 8.3+ | — |
 | <a href="#tool_openapi"><b>tool_openapi</b></a> | Exposes Moodle&#39;s live web-service function catalog as an OpenAPI 3.1 document, with configurable access… | 4.5 – 5.2 | — | <a href="https://github.com/didactika/moodle-tool_openapi/releases/tag/v1.0.0">v1.0.0</a> |
 
 ## What runs on my Moodle?
