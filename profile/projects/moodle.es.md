@@ -18,7 +18,7 @@ Plugins que añaden funciones a Moodle para docentes, administración e integrac
 
 | Plugin | Qué hace | Moodle | PHP | Última |
 |:--|:--|:-:|:-:|:-:|
-| <a href="#local_servicemanager"><b>local_servicemanager</b></a> | Crea y administra servicios web de Moodle desde esquemas YAML versionados | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_servicemanager/releases/tag/v1.1.0-m503">v1.1.0-m503</a> |
+| <a href="#local_servicemanager"><b>local_servicemanager</b></a> | Crea y administra servicios web de Moodle desde esquemas YAML versionados | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_servicemanager/releases/tag/v1.1.1-m503">v1.1.1-m503</a> |
 
 ## ¿Qué funciona en mi Moodle?
 
