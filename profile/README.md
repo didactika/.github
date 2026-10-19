@@ -38,7 +38,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 <p>&nbsp;</p>
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md">Moodle plugins</a></h3>
 <p>Plugins that add features to Moodle for teachers, administrators and integrations.</p>
-<p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>1</b> published</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.md"><b>8</b> unpublished</a></p>
+<p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>2</b> published</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.md"><b>8</b> unpublished</a></p>
 <p>&nbsp;</p>
 </td>
 <td width="50%" valign="top" align="center">
@@ -82,7 +82,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 
 ## Contributors
 
-<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 672 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 289 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/miguelrivasmorantes" title="miguelrivasmorantes · 20 commits"><img src="https://avatars.githubusercontent.com/u/166329855?v=4&s=96" width="64" height="64" alt="miguelrivasmorantes"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Cubiasss-Eduardo" title="Cubiasss-Eduardo · 19 commits"><img src="https://avatars.githubusercontent.com/u/149213521?v=4&s=96" width="64" height="64" alt="Cubiasss-Eduardo"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 16 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
+<p><a href="https://github.com/hector-ae21" title="hector-ae21 · 673 commits"><img src="https://avatars.githubusercontent.com/u/87265357?v=4&s=96" width="64" height="64" alt="hector-ae21"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/E2RD0" title="E2RD0 · 324 commits"><img src="https://avatars.githubusercontent.com/u/20119863?v=4&s=96" width="64" height="64" alt="E2RD0"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/miguelrivasmorantes" title="miguelrivasmorantes · 54 commits"><img src="https://avatars.githubusercontent.com/u/166329855?v=4&s=96" width="64" height="64" alt="miguelrivasmorantes"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Cubiasss-Eduardo" title="Cubiasss-Eduardo · 19 commits"><img src="https://avatars.githubusercontent.com/u/149213521?v=4&s=96" width="64" height="64" alt="Cubiasss-Eduardo"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/alex-borja" title="alex-borja · 16 commits"><img src="https://avatars.githubusercontent.com/u/144816513?v=4&s=96" width="64" height="64" alt="alex-borja"></a></p>
 
 ## Contributing
 

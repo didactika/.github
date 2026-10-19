@@ -10,7 +10,7 @@
 
 Plugins that add features to Moodle for teachers, administrators and integrations.
 
-<p><b>9 plugins</b> · Moodle <code>4.0</code> – <code>5.3</code> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.md"><b>8</b> unpublished</a></p>
+<p><b>10 plugins</b> · Moodle <code>4.0</code> – <code>5.3</code> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.md"><b>8</b> unpublished</a></p>
 
 ---
 
@@ -18,6 +18,7 @@ Plugins that add features to Moodle for teachers, administrators and integration
 
 | Plugin | What it does | Moodle | PHP | Latest |
 |:--|:--|:-:|:-:|:-:|
+| <a href="#local_autograder"><b>local_autograder</b></a> | Automatically grades completed activities a teacher hasn&#39;t graded after the deadline | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_autograder/releases/tag/v1.1.0-m503">v1.1.0-m503</a> |
 | <a href="#local_servicemanager"><b>local_servicemanager</b></a> | Provisions and manages Moodle web services from version-controlled YAML schemas | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_servicemanager/releases/tag/v1.1.1-m503">v1.1.1-m503</a> |
 
 ## What runs on my Moodle?
@@ -26,11 +27,24 @@ Plugins that add features to Moodle for teachers, administrators and integration
 
 | Plugin | 4.0 | 4.1 | 4.2 | 4.3 | 4.4 | 4.5 | 5.0 | 5.1 | 5.2 | 5.3 |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| <a href="#local_autograder">local_autograder</a> | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | <a href="#local_servicemanager">local_servicemanager</a> | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
 ## Details
+
+### local_autograder
+
+<p><a href="https://moodle.org"><img alt="Moodle 4.0+" src="https://img.shields.io/badge/Moodle-4.0+-f98012?style=flat-square&logo=moodle&logoColor=white"></a> <a href="https://www.php.net"><img alt="PHP 8.3+" src="https://img.shields.io/badge/PHP-8.3+-777bb4?style=flat-square&logo=php&logoColor=white"></a> <a href="https://github.com/didactika/moodle-local_autograder/blob/main/LICENSE"><img alt="License GPL v3" src="https://img.shields.io/badge/License-GPL_v3-blue?style=flat-square"></a> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-local_autograder?style=flat-square&color=0d9488&labelColor=1f2328&label=release"></p>
+
+Automatically grades completed activities a teacher hasn&#39;t graded after the deadline.
+
+<p><b>Supported Moodle:</b> <code>4.0</code> · <code>4.1</code> · <code>4.2</code> · <code>4.3</code> · <code>4.4</code> · <code>4.5</code> · <code>5.0</code> · <code>5.1</code> · <code>5.2</code> · <code>5.3</code></p>
+
+<sub><a href="https://github.com/didactika/moodle-local_autograder">GitHub</a> · <a href="https://moodle.org/plugins/local_autograder">Moodle.org</a> · <a href="https://github.com/didactika/moodle-local_autograder/releases">Releases</a></sub>
+
+---
 
 ### local_servicemanager
 
