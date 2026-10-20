@@ -19,7 +19,7 @@ Not in the Moodle plugins directory yet. They can be installed from their reposi
 | Plugin | What it does | Moodle | PHP | Latest |
 |:--|:--|:-:|:-:|:-:|
 | <a href="#local_delegateaccount"><b>local_delegateaccount</b></a> | Moodle local plugin for granting authorised users access to specific accounts through Moodle&#39;s built-in Log… | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_delegateaccount/releases/tag/v1.0.0-m405">v1.0.0-m405</a> |
-| <a href="#local_extendednav"><b>local_extendednav</b></a> | — | 4.5 – 5.2 | 8.1+ | <a href="https://github.com/didactika/moodle-local_extendednav/releases/tag/v1.0.0-m405">v1.0.0-m405</a> |
+| <a href="#local_extendednav"><b>local_extendednav</b></a> | — | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_extendednav/releases/tag/v1.0.0-m503">v1.0.0-m503</a> |
 | <a href="#local_filebank"><b>local_filebank</b></a> | Moodle local plugin that organises the public files of related courses into a reusable library, with profiles… | 4.0 – 5.3 | 8.3+ | — |
 | <a href="#local_iconrestyle"><b>local_iconrestyle</b></a> | Moodle local plugin to restyle the icons of the whole site, a category, a course or an activity from one… | 4.0 – 5.3 | 8.3+ | — |
 | <a href="#report_autograder"><b>report_autograder</b></a> | Report to review what the Autograder local plugin graded, what is pending and what failed, per activity,… | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-report_autograder/releases/tag/v1.0.3-m405">v1.0.3-m405</a> |
@@ -34,7 +34,7 @@ Not in the Moodle plugins directory yet. They can be installed from their reposi
 | Plugin | 4.0 | 4.1 | 4.2 | 4.3 | 4.4 | 4.5 | 5.0 | 5.1 | 5.2 | 5.3 |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | <a href="#local_delegateaccount">local_delegateaccount</a> | · | · | · | · | · | ✅ | ✅ | ✅ | ✅ | ✅ |
-| <a href="#local_extendednav">local_extendednav</a> | · | · | · | · | · | ✅ | ✅ | ✅ | ✅ | · |
+| <a href="#local_extendednav">local_extendednav</a> | · | · | · | · | · | ✅ | ✅ | ✅ | ✅ | ✅ |
 | <a href="#local_filebank">local_filebank</a> | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | <a href="#local_iconrestyle">local_iconrestyle</a> | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | <a href="#report_autograder">report_autograder</a> | · | · | · | · | · | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -63,7 +63,7 @@ Moodle local plugin for granting authorised users access to specific accounts th
 <p><a href="https://moodle.org"><img alt="Moodle 4.5+" src="https://img.shields.io/badge/Moodle-4.5+-f98012?style=flat-square&logo=moodle&logoColor=white"></a> <a href="https://www.php.net"><img alt="PHP 8.1+" src="https://img.shields.io/badge/PHP-8.1+-777bb4?style=flat-square&logo=php&logoColor=white"></a> <a href="https://github.com/didactika/moodle-local_extendednav/blob/main/LICENSE"><img alt="License GPL v3" src="https://img.shields.io/badge/License-GPL_v3-blue?style=flat-square"></a> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-local_extendednav?style=flat-square&color=0d9488&labelColor=1f2328&label=release"></p>
 
 
-<p><b>Supported Moodle:</b> <code>4.5</code> · <code>5.0</code> · <code>5.1</code> · <code>5.2</code></p>
+<p><b>Supported Moodle:</b> <code>4.5</code> · <code>5.0</code> · <code>5.1</code> · <code>5.2</code> · <code>5.3</code></p>
 
 <sub><a href="https://github.com/didactika/moodle-local_extendednav">GitHub</a> · <a href="https://github.com/didactika/moodle-local_extendednav/releases">Releases</a></sub>
 
