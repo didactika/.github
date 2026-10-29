@@ -38,7 +38,7 @@ We believe in free, robust and scalable educational infrastructure, able to meet
 <p>&nbsp;</p>
 <h3><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md">Moodle plugins</a></h3>
 <p>Plugins that add features to Moodle for teachers, administrators and integrations.</p>
-<p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>2</b> published</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.md"><b>8</b> unpublished</a></p>
+<p><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><b>3</b> published</a> · <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle-unpublished.md"><b>7</b> unpublished</a></p>
 <p>&nbsp;</p>
 </td>
 <td width="50%" valign="top" align="center">

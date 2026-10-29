@@ -10,7 +10,7 @@
 
 Aún no están en el directorio de plugins de Moodle. Se pueden instalar desde su repositorio.
 
-<p><b>8 plugins</b> · Moodle <code>4.0</code> – <code>5.3</code></p>
+<p><b>7 plugins</b> · Moodle <code>4.0</code> – <code>5.3</code></p>
 
 ---
 
@@ -18,7 +18,6 @@ Aún no están en el directorio de plugins de Moodle. Se pueden instalar desde s
 
 | Plugin | Qué hace | Moodle | PHP | Última |
 |:--|:--|:-:|:-:|:-:|
-| <a href="#local_delegateaccount"><b>local_delegateaccount</b></a> | Moodle local plugin for granting authorised users access to specific accounts through Moodle&#39;s built-in Log… | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_delegateaccount/releases/tag/v1.0.0-m405">v1.0.0-m405</a> |
 | <a href="#local_extendednav"><b>local_extendednav</b></a> | — | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_extendednav/releases/tag/v1.0.0-m503">v1.0.0-m503</a> |
 | <a href="#local_filebank"><b>local_filebank</b></a> | Moodle local plugin that organises the public files of related courses into a reusable library, with profiles… | 4.0 – 5.3 | 8.3+ | — |
 | <a href="#local_iconrestyle"><b>local_iconrestyle</b></a> | Moodle local plugin to restyle the icons of the whole site, a category, a course or an activity from one… | 4.0 – 5.3 | 8.3+ | — |
@@ -33,7 +32,6 @@ Aún no están en el directorio de plugins de Moodle. Se pueden instalar desde s
 
 | Plugin | 4.0 | 4.1 | 4.2 | 4.3 | 4.4 | 4.5 | 5.0 | 5.1 | 5.2 | 5.3 |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| <a href="#local_delegateaccount">local_delegateaccount</a> | · | · | · | · | · | ✅ | ✅ | ✅ | ✅ | ✅ |
 | <a href="#local_extendednav">local_extendednav</a> | · | · | · | · | · | ✅ | ✅ | ✅ | ✅ | ✅ |
 | <a href="#local_filebank">local_filebank</a> | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | <a href="#local_iconrestyle">local_iconrestyle</a> | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -45,18 +43,6 @@ Aún no están en el directorio de plugins de Moodle. Se pueden instalar desde s
 ---
 
 ## Detalle
-
-### local_delegateaccount
-
-<p><a href="https://moodle.org"><img alt="Moodle 4.5+" src="https://img.shields.io/badge/Moodle-4.5+-f98012?style=flat-square&logo=moodle&logoColor=white"></a> <a href="https://www.php.net"><img alt="PHP 8.1+" src="https://img.shields.io/badge/PHP-8.1+-777bb4?style=flat-square&logo=php&logoColor=white"></a> <a href="https://github.com/didactika/moodle-local_delegateaccount/blob/main/LICENSE"><img alt="License GPL v3" src="https://img.shields.io/badge/License-GPL_v3-blue?style=flat-square"></a> <img alt="release" src="https://img.shields.io/github/v/release/didactika/moodle-local_delegateaccount?style=flat-square&color=0d9488&labelColor=1f2328&label=release"></p>
-
-Moodle local plugin for granting authorised users access to specific accounts through Moodle&#39;s built-in Log in as workflow.
-
-<p><b>Moodle compatible:</b> <code>4.5</code> · <code>5.0</code> · <code>5.1</code> · <code>5.2</code> · <code>5.3</code></p>
-
-<sub><a href="https://github.com/didactika/moodle-local_delegateaccount">GitHub</a> · <a href="https://github.com/didactika/moodle-local_delegateaccount/releases">Versiones</a></sub>
-
----
 
 ### local_extendednav
 
