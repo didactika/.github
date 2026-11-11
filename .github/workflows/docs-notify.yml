@@ -1,0 +1,44 @@
+# Tells the documentation portal (didactika/docs) that the docs/ of a repository changed, so docs.didactika.org is built again.
+#
+# A repository uses it with a workflow of its own:
+#
+#   name: Docs notify
+#   on:
+#     push:
+#       branches: [main, 'MOODLE_*_STABLE']
+#       paths: ['docs/**', 'version.php']
+#   jobs:
+#     notify:
+#       uses: didactika/.github/.github/workflows/docs-notify.yml@main
+#       secrets: inherit
+#
+# It needs the organisation secret DOCS_DISPATCH_TOKEN: a fine-grained token with "Contents: read and write" on didactika/docs
+# (the permission repository_dispatch asks for). Without it the notice is skipped and the daily build of the portal picks the change up.
+name: Docs notify
+
+on:
+  workflow_call:
+    secrets:
+      DOCS_DISPATCH_TOKEN:
+        required: false
+
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tell the portal
+        env:
+          GH_TOKEN: ${{ secrets.DOCS_DISPATCH_TOKEN }}
+          SOURCE: ${{ github.repository }}
+          REF: ${{ github.ref_name }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::notice::DOCS_DISPATCH_TOKEN is not set; the portal will pick the change up in its daily build."
+            exit 0
+          fi
+          gh api repos/didactika/docs/dispatches \
+            -f event_type=docs-changed \
+            -f "client_payload[repo]=$SOURCE" \
+            -f "client_payload[ref]=$REF"
