@@ -117,3 +117,32 @@ Unless the repository states otherwise in its own `LICENSE` file, contributed
 code is accepted under that repository's license. Check the `LICENSE` file at
 the root of the specific repository before contributing if this matters to
 you.
+
+## Technical documentation
+
+The technical documentation of a product (domain model, requirements, use cases,
+analysis, design and a map to the code) is written with the **rup-flow Pro**
+skill, not by hand, so every product follows the same method and the same
+structure. It is published in the documentation portal as the "Technical
+documentation" section of the product.
+
+- **Get the skill:** <https://www.agensi.io/skills/rup-flow-pro-complete-rup-workflow-both-ways>.
+  Its license does not allow redistribution, so never copy it into a
+  repository, a release or a public artifact.
+- **Where it goes:** `docs/<language>/technical/` in the repository of the
+  product, in English and Spanish. A `rup.config.json` at the root of the
+  repository sets the output folder (`docs/en/technical`); the Spanish copy is
+  produced with `--out docs/es/technical --lang es`.
+- **Folders:** name them `domain`, `requirements`, `analysis`, `design`,
+  `implementation` and `quality`, so the portal shows them in that order.
+- **Colours:** the diagrams use the Didactika palette, kept in the `docs`
+  repository as `rup/didactika.theme.json`. Copy it into the `theme` key of
+  `rup.config.json`; never colour a diagram by hand.
+- **Check it:** render the diagrams and run `check` before committing; it must
+  end with no errors. Commit the `.puml` sources and the rendered `.svg` files.
+- **Be honest about the source:** requirements deduced from code stay marked as
+  assumed until the product owner confirms them, and test results stay
+  "not run" until someone runs the tests.
+- **Releases:** `docs/` and `rup.config.json` are excluded from the release zip
+  (`export-ignore` in `.gitattributes`), so documentation changes never need a
+  new version.
