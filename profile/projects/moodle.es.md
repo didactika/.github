@@ -1,7 +1,7 @@
 <!--
   GENERATED FILE — DO NOT EDIT.
   Rendered from profile/data/content.json + the GitHub API by
-  profile-generator. Last generated: 2026-11-11
+  profile-generator. Last generated: 2026-11-12
 -->
 
 <a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-off-dark.svg"><img alt="EN" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-en-off-light.svg" height="32"></picture></a><a href="https://github.com/didactika/.github/blob/main/profile/projects/moodle.es.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-on-dark.svg"><img alt="ES" src="https://raw.githubusercontent.com/didactika/.github/main/profile/assets/tab-es-on-light.svg" height="32"></picture></a>
@@ -19,7 +19,7 @@ Plugins que añaden funciones a Moodle para docentes, administración e integrac
 | Plugin | Qué hace | Moodle | PHP | Última |
 |:--|:--|:-:|:-:|:-:|
 | <a href="#local_autograder"><b>local_autograder</b></a> | Califica automáticamente las actividades completadas que un docente no ha calificado tras la fecha límite | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_autograder/releases/tag/v1.1.0-m503">v1.1.0-m503</a> |
-| <a href="#local_delegateaccount"><b>local_delegateaccount</b></a> | Moodle local plugin for granting authorised users access to specific accounts through Moodle&#39;s built-in Log… | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_delegateaccount/releases/tag/v1.1.0-m503">v1.1.0-m503</a> |
+| <a href="#local_delegateaccount"><b>local_delegateaccount</b></a> | Moodle local plugin for granting authorised users access to specific accounts through Moodle&#39;s built-in Log… | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_delegateaccount/releases/tag/v1.2.0-m503">v1.2.0-m503</a> |
 | <a href="#local_extendednav"><b>local_extendednav</b></a> | — | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_extendednav/releases/tag/v1.0.0-m503">v1.0.0-m503</a> |
 | <a href="#local_servicemanager"><b>local_servicemanager</b></a> | Crea y administra servicios web de Moodle desde esquemas YAML versionados | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_servicemanager/releases/tag/v1.1.1-m503">v1.1.1-m503</a> |
 | <a href="#report_autograder"><b>report_autograder</b></a> | Informe para revisar qué calificó el plugin local Autograder, qué está pendiente y qué falló, por actividad,… | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-report_autograder/releases/tag/v1.1.0-m503">v1.1.0-m503</a> |
