@@ -18,11 +18,11 @@ Plugins that add features to Moodle for teachers, administrators and integration
 
 | Plugin | What it does | Moodle | PHP | Latest |
 |:--|:--|:-:|:-:|:-:|
-| <a href="#local_autograder"><b>local_autograder</b></a> | Automatically grades completed activities a teacher hasn&#39;t graded after the deadline | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_autograder/releases/tag/v1.1.0-m503">v1.1.0-m503</a> |
+| <a href="#local_autograder"><b>local_autograder</b></a> | Automatically grades completed activities a teacher hasn&#39;t graded after the deadline | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_autograder/releases/tag/v1.2.0-m503">v1.2.0-m503</a> |
 | <a href="#local_delegateaccount"><b>local_delegateaccount</b></a> | Moodle local plugin for granting authorised users access to specific accounts through Moodle&#39;s built-in Log… | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_delegateaccount/releases/tag/v1.2.0-m503">v1.2.0-m503</a> |
 | <a href="#local_extendednav"><b>local_extendednav</b></a> | — | 4.5 – 5.3 | 8.1+ | <a href="https://github.com/didactika/moodle-local_extendednav/releases/tag/v1.0.0-m503">v1.0.0-m503</a> |
 | <a href="#local_servicemanager"><b>local_servicemanager</b></a> | Provisions and manages Moodle web services from version-controlled YAML schemas | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-local_servicemanager/releases/tag/v1.1.1-m503">v1.1.1-m503</a> |
-| <a href="#report_autograder"><b>report_autograder</b></a> | Report to review what the Autograder local plugin graded, what is pending and what failed, per activity,… | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-report_autograder/releases/tag/v1.1.0-m503">v1.1.0-m503</a> |
+| <a href="#report_autograder"><b>report_autograder</b></a> | Report to review what the Autograder local plugin graded, what is pending and what failed, per activity,… | 4.0 – 5.3 | 8.3+ | <a href="https://github.com/didactika/moodle-report_autograder/releases/tag/v1.2.0-m503">v1.2.0-m503</a> |
 
 ## What runs on my Moodle?
 
